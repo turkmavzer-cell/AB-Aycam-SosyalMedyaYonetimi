@@ -3,6 +3,8 @@
 Son güncelleme: 13.10.2026. En yeni kayıt en üstte.
 
 ## 13 Ekim 2026
+- Facebook kontrolü: 7 Messenger mesajı (fiyat, model, kumaşa baskı, kargo sorusu) wa.me linkli cevaplarla yanıtlandı. "محمود جمعه" sadece ismini ve beğeni attığı için cevaplanmadı. 8 Ekim gönderisindeki yeni yorumlar Meta otomatik yanıtıyla cevaplanmıştı; El Badry'nin strass satış ilanı yorumu cevapsız bırakıldı. Kargo sorusuna WhatsApp'a yönlendiren şablon kullanıldı (gerçek kargo politikası kayıtta yok).
+- GitHub'a ilk yükleme yapıldı: kök dosyalar, is-akislari (3), promptlar (4), promptlar/arsiv-gemini-giydirme (13). Repo özel. Eski video işleri şimdilik aktarılmadı (kullanıcı kararı: bundan sonrası kayıt altına alınacak).
 - GitHub kayıt sistemi kuruldu: repo açıldı, özel (private) yapılması istendi, kayıt kuralı belirlendi (her işte ilgili md güncellenir, onaylı promptlar `promptlar/` klasörüne yazılır).
 - Proje Context dosyası güncellendi (ev tekstili, Meta, TikTok, GitHub eklendi). Proje Instructions kısmına, yeni sohbetin repoyu okumasını söyleyen metin hazırlandı.
 - Geçmiş işleri toplu aktarmak için `GITHUB AKTARIM TALIMATI.md` hazırlandı.
