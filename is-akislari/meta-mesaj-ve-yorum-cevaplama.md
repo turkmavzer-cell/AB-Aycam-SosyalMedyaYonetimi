@@ -46,6 +46,9 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
 **Sipariş isteği:**
 أهلاً {ISIM} 👋 الأسعار والموديلات بنشاركها على واتساب بس، وتقدر تطلب طباعة على قماشك من هناك. كلمنا وهنرد عليك فوراً: https://wa.me/201066830373
 
+**Kargo / teslimat sorusu (13.10.2026'da kullanıldı; gerçek politika kayıtta yok, kullanıcı teyit edince güncellenecek):**
+أهلاً {ISIM} 👋 تفاصيل الشحن والتوصيل بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373
+
 **Teşekkür (olumlu yorum):**
 شكراً لذوقك! للتفاصيل والسعر كلمنا على واتساب: https://wa.me/201066830373
 
@@ -54,4 +57,5 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
 - Meta'nın otomatik karşılama mesajı sadece "nasıl yardım edebiliriz" der; fiyat/link içermez, bu yüzden ayrıca cevap gerekir.
 
 ## Mevcut durum
+13 Ekim: 7 yeni Messenger mesajı cevaplandı (sadece ismini yazıp beğeni atan bir kişi atlandı). Yorumlarda Meta otomatik yanıtı çalışıyor. Messenger'da yanıt kutusu konumu pencere boyutuna göre değişir (y≈677 veya 722); yazmadan önce ekran görüntüsüyle kutuyu doğrula. Gönderilen konuşma listenin en üstüne çıkar, alttakiler kaymaz.
 12 Ekim: bekleyen tüm Messenger mesajları cevaplandı; tekrar soran yoktu. Eski mesajlar ve bazı yorumlar için `bekleyen-isler.md` dosyasına bak.
