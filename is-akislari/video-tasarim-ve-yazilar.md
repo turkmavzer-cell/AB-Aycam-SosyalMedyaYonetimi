@@ -25,6 +25,10 @@ Metinler: طباعة الاستراس بالمتر / على التوب كامل�
 ## Video 17T (örnek)
 "17T video Reklam - Facebook - mini.mp4" (1080x1920, 80,5 sn, sadece müzik): 0-36 sn kırmızı kumaş, 36-60 sn yeşil kumaş (kesimler 36,0 ve 40,5), ~61-73 sn dört fotoğraflı ızgara (fotoğraflar ~65, 67, 69, 71'de değişir), ~74-80 sn iletişim kartı. Zamanlar `17T_yazilar.srt` içinde; yazı sırası/zamanı yukarıdaki PNG adlarıyla aynı.
 
+## Bayraklı bitiş (14.10.2026)
+**Kural: bayrakları Claude çizmez; kullanıcı kendi bayrak görsellerini koyar.** (Claude'un çizdiği Mısır kartalı kötü göründü, kullanıcı reddetti; dosyalar silindi.)
+`E:\ab ayçam\video-tasarimlari\bayrak-sablon\2160x3840` ve `1080x1920`: 01 şeffaf (koyu vinyet), 02 koyu zeminli. İki daire deliği olan üst katman: altın çerçeveli, hafif parlama; Türk bayrağı solda, Mısır sağda; ortada kırmızı elmas, altında "جودة تركية داخل مصر" ve AB AYÇAM. Bayrak görselleri altındaki kanala konur. Delik merkezleri (2160x3840): sol (570,1760), sağ (1590,1760); çap 760 px (1080x1920'de 285,880 / 795,880, çap 380). Bayrak görseli deliği tamamen kaplayacak kadar büyütülür. Betik `_kaynak\bayrak.py <ölçek>` (design4k.py'ye bağlı).
+
 ## Facebook açıklama kuralları
 Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/201066830373` linki (yazılı numara yok), adres satırı ve etiketler dahil (#طباعة_استراس #استراس #طباعة_بالمتر #هوت_فيكس #لانجيري #عبايات #فساتين_سهرة #العبور #مصر #ABAYÇAM). Metin: başlıkta "طباعة الاستراس بالمتر… على التوب كامل، مش قطع", ✔️ listesi (37 رسمة, ثبات وجودة تركية, القماش اللي تختاره, تنفيذ سريع من غير استيراد, مناسب للمصانع وورش الملابس), "الأسعار والموديلات بنشاركها على واتساب بس".
 
