@@ -1,39 +1,29 @@
 # Bekleyen işler
 
-Son güncelleme: 13.10.2026. (Onay) = kullanıcı onayı olmadan yapılmaz.
+Son güncelleme: 21.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 
-## Acil / tarihli
-- **Hesap kilidi açma son günü: 25 Ekim 2026.** (Hangi hesap olduğu eski kayıtlarda doğrulanmadı, kullanıcıya sorulmalı.)
+## Açık
+- **Gitmeyen mesaj (21.10):** 1 kişi yeni mesaj isteklerine kapalı, cevap iletilemedi. Yazarsa/ listede görünürse tekrar denenecek; ayrıntı yerel-kayitlar'da.
+- **Cevapsız kalan diğer konuşmalar (21.10):** listedeki 16 dışında okunmamış/cevapsız birkaç konuşma var (örn. bir kişi daha ve eski okunmamışlar); kullanıcı isterse yeni tur.
+- **Şal promptları:** v18 onaylandı (başa sarılan şal, genç modern tesettür, gün batımı portresi). Diğer renkler için aynı kalıpla yeni prompt istenirse yazılacak. v17 yarım boy promptları kısmen yetersiz.
+- **Video 19 v2 önizleme:** kullanıcı izleyip onaylayacak; bitiş bölümünü Premiere'e ekleyecek (OKU-BENI.md). Lacivert ve öbek simli görsel çıkarıldı (istenirse eklenir). Müzik eklenmedi.
+- **Sim videosu v1:** kullanıcı izleyip revizyon (video no/saniye) isteyecek; müzik eklenmedi (karar bekliyor); Facebook'a yükleme ve açıklama kullanıcı onayıyla. Sarman denetim sonucuna göre düzeltmeler (ilerleme/ogrenilenler).
+- **v17 şal promptları (belirgin sim):** Gemini'de denenmedi; sonuçlara göre "oldu" olanlar promptlar\'a onaylı işlenecek. (v16 sim belli olmadığı için yerini v17'ye bıraktı.)
+- **(eski) v16 şal promptları (serpme + loş):** Gemini'de denenmedi; v15 reddedildi (öbek sim). Kullanıcı "oldu" derse kelimesi kelimesine onaylı olarak promptlar\'a işlenecek.
+- **Video 19 şablonları:** `sablonlar-video-19` kullanıcı Premiere'de deneyecek; yazı zamanlama önerisi OKU-BENI.md'de, revizyon istenirse güncellenecek.
+- **Kelime teyidi:** Sim için Arapçada "جليتر" seçildi (Ankara); kullanıcı "ستراس/سيم" tercih ederse yazılar yeniden üretilir (`_calisma\sim_gen.py`).
+- **Instagram (ab_aycam) bağlama:** AB Facebook sayfası hiçbir işletme portföyünde değil. Portföye eklemek eski telefon numarasına (kullanıcının erişimi yok) doğrulama kodu istiyor; e-posta ile kod seçeneği çıkmıyor. Meta destek asistanı talep açamadı, "Kimlik Yükle" seçeneği görünmedi. Denenecekler: telefondaki Facebook uygulaması veya başka tarayıcıdan "Kimlik Yükle", Instagram uygulamasında "Sayfa bağla", sayfa ayarlarından Instagram bağlantısı, Meta kurtarma süreci. Karar kullanıcıda.
+- **Meta otomatik özel mesajı:** Otomasyonlar ayarındaki metinlerde yazılı telefon numaraları var; sadece wa.me linki olmalı.
+- **Hesap kilidi son tarihi:** 25 Ekim 2026 (ayrıntı için Project Context).
+- **Kargo politikası:** Gerçek kargo politikası kayıtta yok; soran olursa şimdilik WhatsApp'a yönlendirme şablonu kullanılıyor.
+- **TikTok:** Şirket hesabı @toqa7808 erişim kurtarma; kullanıcı haber verecek.
+- **Yeni gelen Messenger mesajları:** Fiyat/model/kumaşa baskı soran herkese isimli metin + PDF kuralı geçerli (is-akislari/meta-mesaj-ve-yorum.md). Bir sonraki kontrolde yeni mesajlara uygulanacak.
+- **Gönderilemeyen eski konuşmalar (17.10):** 2 konuşma (biri mesaj kutusuz, biri listede bulunamadı). İsimler `yerel-kayitlar` içinde; gerekirse yeniden denenecek.
+- **Cevapsız bırakılan:** 1 konuşma (cevabımız vardı, sonra cevapsız arama) — yeni mesaj atarsa cevaplanacak.
 
-## Ev tekstili
-- Onaylı sahne görselinden 3 detay görseli üretimi (tabak altlığı, merkez desen, makro köşe). Gemini'ye yükleme: 1 = sahne görseli, 2 = büyük, 3 = küçük, 4 = uzun.
-- Uzun parçanın gerçek ölçüsü: hafızada 45x100 cm, sahne promptunda ~28x70 cm kullanıldı. Kullanıcıdan teyit al, prompt ve görseli buna göre düzelt.
-- Aynı sahne düzenini yıldız ve diğer setler için uygula (3:4 dikey PDF katalog görselleri).
-- Uzun parçayı tencere altlığı olarak gösteren detay (isteğe bağlı).
-
-## Meta (Facebook/Messenger)
-- Eski Messenger mesajlarında yazılı telefon numaraları var (~100); gönderilmiş mesaj düzenlenemez, silip yeniden göndermek geri alınamaz. **(Onay)** kullanıcı kararı bekliyor.
-- 2 haftaya kadar eski yorum ve mesajların taranması/cevaplanması: kısmen yapıldı (rulo ve 17 Eylül videosu yorumları).
-- Makine videosunda (17 Eylül) 22 yorumdan 5'i görüntülendi, 12'si "Diğer yorumları gör" arkasında kaldı.
-- Yorumlarda yazılı numara kalan cevapların düzeltilmesi (yaklaşık 7 yorum kaldı; hangi gönderilerde olduğu gelen kutusundan yeniden bulunur).
-- Reklam seti ve otomasyon değişiklikleri sadece onayla yapılır. **(Onay)**
-- Facebook sayfa adı değişikliği (hedef: "AB Ayçam Metraj Taş Baskı"); doğrulama kodu erişilemeyen eski telefona gidiyor.
-- 2FA ve telefon temizliği ertelendi.
-
-## TikTok
-- Şirket hesabı @toqa7808'e erişimi geri al (şirket numarasıyla/kullanıcı adıyla "şifremi unuttum", eski çalışana ipucu sorma, e-posta araması, TikTok destek başvurusu).
-- Erişim sonrası: e-posta/telefonu şirket adresine çevir, şifreyi yenile, iki adımlı doğrulamayı aç.
-- Sonra yorum ve mesaj akışını Facebook'takine benzer kur. **(Onay)**
-
-## GitHub
-- Repo özel (private) mi: tarayıcı gizli pencerede 404 görmeli, teyit et.
-- Hazırlanan dosyaları klona kopyala; GitHub Desktop'tan Commit + Push.
-- Geçmiş işlerin eksiksiz aktarımı: `GITHUB AKTARIM TALIMATI.md` ile yeni oturumda yapılacak.
-
-## Video ve görsel
-- 6 videoda revizyonlar (video no + saniye + istek).
-- Müziklerin eklenmesi (onay veya kullanıcı kendisi ekleyecek).
-- Pollo AI üyeliği sonrası taş koruma video denemeleri (Wan 3.0, MiniMax H3, Seedance 2.0).
-- Gemini giydirme üretimlerinin devamı (v12 sonrası), Mısır iklimine uyarlama.
-- Paisley vektör için yol seçimi (çizimci, Illustrator'da devam, motif motif çizim).
-- İki aşamalı (düz kıyafet + desen bindirme) yöntemin testi: yapıldı mı doğrulanmadı.
+## Bitti
+- 21.10: Listedeki 16 konuşmadan 15'ine cevap gitti (doğrulandı); 1 kişiye iletilemedi.
+- 20.10: 8 yeni Messenger konuşmasına isimli metin + PDF gitti (8/8 doğrulandı); sayaç 0.
+- 19.10: Yorum turu (otomatik cevaplar doğrulandı, 1 elle cevap, 2 spam gizlendi).
+- 18.10: 64 konuşmaya isimli metin + PDF gönderildi, liste çıkarıldı (yerel-kayitlar).
+- 18.10: Proje Instructions metni güncellendi (PROJE_INSTRUCTIONS_GUNCEL.md); kullanıcının Claude.ai'da yapıştırması gerekiyor.
