@@ -1,9 +1,22 @@
 # İlerleme kaydı
 
-Son güncelleme: 21.10.2026. En yeni kayıt en üstte.
+Son güncelleme: 24.10.2026. En yeni kayıt en üstte.
+
+## 24 Ekim 2026 (Video 21 - geniş kumaş alt yazı ve ücretsiz numune bitiş şablonları)
+- `premiere pro\21 - geniş kumaş\video 21 video.prproj` okundu (açık projeye dokunulmadı). Sekans (`VID_20261015_152528`, 2160x3840) içindeki 12 video klibinin kareleri çıkarılıp incelendi; kliplerin saniye aralıklarına ve görüntülerine göre Mısır Amme Arapçası (`العامية المصرية`) ile zamanlı alt yazı şablonları üretildi.
+- **Revizyon (3.20 mt en vurgusu):** Kullanıcının isteğiyle **"3.20 mt eninde kumaşlara da baskı yapılabildiği"** (`بنطبع على القماش العريض لحد عرض 3.20 متر`, `حتى الأقمشة بعرض 3.20 متر بنطبع عليها`, `طباعة لحد عرض 3.20 متر بالمتر / مناسب للمصانع وورش الملابس والمفروشات`) bilgisi 02 (`5,7–9,3 sn`), 04 (`14,8–18,2 sn`) ve 09 (`35,5–40,1 sn`) numaralı kliplere, açılış/bitiş kartlarına ve 2 ekstra bağımsız şablona (`21_ek_...`, `22_ek_...`) işlendi.
+- Videonun sonu (`75,6–81,1+ sn`, bayrak sahnesi sonrası) için kullanıcının istediği **"numuneler ücretsiz baskısı yapılır"** (`عرض خاص / طباعة العينات مجاناً / أي عينة تجيبها بنطبع لك عليها استراس مجاناً / جرّب شغلنا على قماشك من غير أي تكلفة`) şablonu 5 alternatifle üretildi: şeffaf orta kart (`14`), koyu zeminli tam ekran kart (`15`), alt yazı bandı (`16`), ücretsiz numune + iletişim (sadece 0373) birleşik bitiş kartı şeffaf/koyu (`17`/`18`) ve standart iletişim kartı (`19`/`20`).
+- Tespit: V2'deki açılış logosu (`04_logo_orta_buyuk_seffaf.png`) Video 19'dan kaldığı için "جليتر" (sim) yazıyordu; taş baskı karşılığı (`00_acilis_0s0-2s7sn_logo_strass_seffaf.png`) üretilip `OKU-BENI.md` içinde kullanıcıya bildirildi.
+- Çıktı klasörü: `premiere pro\21 - geniş kumaş\yazi-ve-bitis-sablonlari\` (`2160x3840\`, `1080x1920\`, `21_genis_kumas_yazilar.srt`, `OKU-BENI.md`, `_kaynak\gen21.py` + `fontlar\` + `logo.png`). Gri zeminde ön izleme sayfası ile tüm şablonlarda harf birleşimi ve çerçeve uyumu doğrulandı.
+
+## 21 Ekim 2026 (sim glitter referans promptları)
+- Kullanıcı isteği: `Sim işleri\1 sim görselleri` (28 referans, poşet içinde çekilmiş ham glitter) + `yapay zeka görselleri` (örnek çıktılar: sim serpme şal/eşarp, 3:4) örnek alınarak Gemini/Nano Banana için 28 farklı prompt. Her prompt kendi referans numarasına (1 (1)..1 (28)) göre yazıldı; poşet/ambalaj/yığın yok sayılıyor, sadece simin renk-şekil-boyutu alınıyor. Sim boyutu: en büyük 5 mm altı (yıldız vb. 3-4 mm), küçükler ~1 mm; serpme/üfleme dağılım, kumaş rengi baskın. Kumaş renkleri: siyah, kırmızı, beyaz, lacivert, bordo, koyu yeşil, fildişi, teal, çikolata vb. (denenmedi).
+- Revizyon (aynı gün): kullanıcı 2. promptta yaşlı kadın ve büyük sim çıktığını söyledi → tüm modeller genç kadın (20'li yaşlar), sim boyutu küçültüldü (çoğu 1-2 mm, 3-4 mm nadir, "emin değilsen küçük yap"), 2. prompt özellikle 1-2 mm.
+- Revizyon 2: 6. prompt şal gibi durmadı (robe/ceket gibi çıktı, sim öbeklendi) → 28 promptun hepsi şal/eşarp yapıldı: 11'i başa sarılı (tesettür gibi), 17'si omuza alınmış şal; elbise/metrajlık/wrap kalktı; "ceket, robe, kimono, kol, ön açıklık yok" ve "sim öbeksiz eşit serpme" cümleleri eklendi.
+- Dosya: `promptlar\sim_glitter_28_prompt.md` (kopyası: `Sim işleri\sim_glitter_28_prompt.md`).
 
 ## 21 Ekim 2026
-- Messenger turu: 16 yeni konuşma listelendi (tablo: ne yazmış / ne yazılacak), kullanıcı onayıyla 15'ine cevap gitti (çoğu isimli metin + `tüm kalıplar tek renk.pdf`; 2 adres soran kişiye metne adres satırı; PDF'i zaten konuşmada olan 2 kişiye sadece metin "اللي اتبعتلك فوق"; selam/"وعليكم السلام" varyantları). Her mesajda wa.me linki tam, PDF 4,66 MiB olarak konuşmada doğrulandı. **1 kişiye gitmedi:** Messenger "bu hesap yeni mesaj isteklerine izin vermiyor" dedi. Yeni yorum: 1 tane, Meta otomatiği zaten cevaplamış. Müşteri adları/mesajları repoya yazılmadı (`yerel-kayitlar\Messenger-cevap-listesi-21-Ekim-2026.md`).
+- Messenger turu: 16 yeni konuşma listelendi (tablo: ne yazmış / ne yazılacak), kullanıcı onayıyla 15'ine cevap gitti (çoğu isimli metin + `tüm kalıplar tek renk.pdf`; 2 adres soran kişiye metne adres satırı; PDF'i zaten konuşmada olan 2 kişiye sadece metin "اللي اتبعتلك فوق"; selam/"وعليكم السلام" varyantları). Her mesajda wa.me linki tam, PDF 4,66 MiB olarak konuşmada doğrulandı. **1 kişiye (Maab Fathi) gitmedi:** Messenger "bu hesap yeni mesaj isteklerine izin vermiyor" dedi. Yeni yorum: 1 tane, Meta otomatiği zaten cevaplamış. Müşteri adları/mesajları repoya yazılmadı (`yerel-kayitlar\Messenger-cevap-listesi-21-Ekim-2026.md`).
 - Tespit: Meta otomatik karşılama mesajında yazılı telefon numarası var (kural ihlali) — Otomasyonlar'dan sadece wa.me bırakılmalı.
 
 ## 20 Ekim 2026
@@ -40,7 +53,7 @@ Son güncelleme: 21.10.2026. En yeni kayıt en üstte.
 - Instagram (ab_aycam) bağlama: AB sayfası hiçbir işletme portföyünde değil; portföye eklemek eski numaraya doğrulama kodu istiyor. Meta destek asistanı talep açamadı; kimlik yükleme seçeneği görünmedi. Bekleyen: telefondan/başka tarayıcıdan deneme veya Meta kurtarma süreci.
 
 ## 17 Ekim 2026
-- Messenger toplu cevap turu: son 3 ayda cevapsız kalan 468 konuşma içinden 79 tespit edildi; gerekli görülenlere (~61) tek tek wa.me linkli şablon cevap gönderildi (fiyat, şekil/model, kumaşa baskı, adres, selam, İngilizce karşılama, teşekkür). Gerek görülmeyen konuşmalar (anlamsız/spam/tek emoji vb.) cevapsız bırakıldı. Yöntem: listeyi kaydırıp konuşmayı aç, başlık adını doğrula, sonra yaz-gönder; ilk denemede ~23 konuşma yanlış satıra denk gelip atlandı, ikinci denemede gönderildi. Mesaj kutusu olmayan 1 konuşma gönderilemedi; 1 konuşma listede bulunamadı (selam). Yorumlar: yeni yorumların çoğu zaten Meta otomasyonu ile cevaplıydı, ek cevap gönderilmedi.
+- Messenger toplu cevap turu: son 3 ayda cevapsız kalan 468 konuşma içinden 79 tespit edildi; gerekli görülenlere (~61) tek tek wa.me linkli şablon cevap gönderildi (fiyat, şekil/model, kumaşa baskı, adres, selam, İngilizce karşılama, teşekkür). Gerek görülmeyen konuşmalar (anlamsız/spam/tek emoji vb.) cevapsız bırakıldı. Yöntem: listeyi kaydırıp konuşmayı aç, başlık adını doğrula, sonra yaz-gönder; ilk denemede ~23 konuşma yanlış satıra denk gelip atlandı, ikinci denemede gönderildi. Mesaj kutusu olmayan 1 konuşma (Ramy Khanger) gönderilemedi; 1 konuşma listede bulunamadı (Badry Khairy, selam). Yorumlar: yeni yorumların çoğu zaten Meta otomasyonu ile cevaplıydı, ek cevap gönderilmedi.
 - Bekleyen: Meta otomatik özel mesajındaki yazılı numaralar wa.me ile değiştirilmeli; Instagram/TikTok kurulumu kullanıcının haberini bekliyor.
 
 ## 15 Ekim 2026
@@ -59,7 +72,7 @@ Son güncelleme: 21.10.2026. En yeni kayıt en üstte.
 - Yuvarlak köşeli foto üst katmanı üretildi (`10_foto_ust_katman_yuvarlak_kose.png`): fotoğrafların üstüne konur, delikler köşeleri keser. Yuva merkezleri (2160x3840 sequence): (560,1360) (1600,1360) (560,2720) (1600,2720). Yuva 960x1280 px. (Önceki 1080 koordinatlı Position önerisi geçersiz.)
 - Kullanıcının Premiere sequence ayarı: 2160x3840 (9:16), 59,94 fps, ProRes 422 LT önizleme. Tasarım PNG'leri 4K olarak yeniden üretildi (`video-tasarimlari\2160x3840\`, eskiler `1080x1920\`'de). Betik `_kaynak\design4k.py <ölçek>`. Export kararı: tek yüksek kaliteli H.264 master (VBR 2 geçiş 60-80 Mbps, AAC 320). Facebook Reels için Meta API: min 540x960, 24-60 fps, 3-90 sn, H.264/H.265, AAC 48 kHz stereo (4K Reels üst sınırı doğrulanamadı).
 - Video bitiş/tasarım paketi: iletişim kartı (şeffaf + koyu zeminli; WhatsApp +20 106 683 0373, +20 106 895 6909, +90 532 058 8023, adres), alt başlık bandı, köşe çerçeve + gradyan, WhatsApp butonu, 4 rozet, 4 foto ızgara şablonu, parıltı katmanı. Palet: siyah, kırmızı #D7141D, gümüş, beyaz. Font Cairo (npm @fontsource/cairo'dan çevrildi).
-- Facebook kontrolü (sabah): 7 Messenger mesajı (fiyat, model, kumaşa baskı, kargo sorusu) wa.me linkli cevaplarla yanıtlandı. Kargo sorusuna WhatsApp'a yönlendiren şablon kullanıldı (gerçek kargo politikası kayıtta yok). Bir kişinin strass satış ilanı yorumu cevapsız bırakıldı.
+- Facebook kontrolü (sabah): 7 Messenger mesajı (fiyat, model, kumaşa baskı, kargo sorusu) wa.me linkli cevaplarla yanıtlandı. Kargo sorusuna WhatsApp'a yönlendiren şablon kullanıldı (gerçek kargo politikası kayıtta yok). El Badry'nin strass satış ilanı yorumu cevapsız bırakıldı.
 - GitHub'a ilk yükleme yapıldı: kök dosyalar, is-akislari, promptlar, promptlar/arsiv-gemini-giydirme (13). Repo özel. Eski video işleri aktarılmadı (kullanıcı kararı: bundan sonrası kayıt altına alınacak).
 - GitHub kayıt sistemi kuruldu: her işte ilgili md güncellenir, onaylı promptlar `promptlar/` klasörüne yazılır.
 - Proje Context dosyası güncellendi; Proje Instructions'a, yeni sohbetin repoyu okumasını söyleyen metin hazırlandı. `GITHUB AKTARIM TALIMATI.md` hazırlandı.
@@ -79,3 +92,8 @@ Son güncelleme: 21.10.2026. En yeni kayıt en üstte.
 
 ## 8 Ekim 2026 ve öncesi
 - Taşlı yapay zeka giydirme promptları v2–v12, 6 seslendirmeli video, Premiere işleri, paisley vektör, Facebook metinleri. Ayrıntı: `AB_Aycam_Proje_Context_TAM.md`.
+
+## 24 Ekim 2026 (Messenger & Yeni Kartela PDF Turu)
+- Messenger turu tamamlandı: 11 müşteriye isimli Mısır lehçesi metin + yeni kartelas 1 - fiyatlı.pdf (8,01 MiB) iletildi.
+- Önemli kural/ders: Tek seferde sadece 1 adet PDF gönderimi kuralı sağlandı ve ogrenilenler.md güncellendi.
+- Yerel kayıt oluşturuldu: yerel-kayitlar\Messenger-cevap-listesi-24-Ekim-2026.md.

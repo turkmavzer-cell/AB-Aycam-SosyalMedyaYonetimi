@@ -1,8 +1,10 @@
 # Bekleyen işler
 
-Son güncelleme: 21.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
+Son güncelleme: 24.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 
 ## Açık
+- **Video 21 (geniş kumaş) şablonları (24.10):** `premiere pro\21 - geniş kumaş\yazi-ve-bitis-sablonlari\` üretildi; kullanıcı Premiere'de sekansa ekleyip deneyecek, revizyon isterse `gen21.py` üzerinden güncellenecek.
+- **Sim glitter 28 prompt (21.10):** Gemini'de denenmedi; kullanıcı denedikçe "oldu/olmadı" geri bildirimi verecek, onaylananlar kelimesi kelimesine promptlar\'a onaylı işlenecek. Sim çok yoğun/çok büyük çıkarsa dosyadaki ek cümleler (daha az sim / biraz büyük) denenecek.
 - **Gitmeyen mesaj (21.10):** 1 kişi yeni mesaj isteklerine kapalı, cevap iletilemedi. Yazarsa/ listede görünürse tekrar denenecek; ayrıntı yerel-kayitlar'da.
 - **Cevapsız kalan diğer konuşmalar (21.10):** listedeki 16 dışında okunmamış/cevapsız birkaç konuşma var (örn. bir kişi daha ve eski okunmamışlar); kullanıcı isterse yeni tur.
 - **Şal promptları:** v18 onaylandı (başa sarılan şal, genç modern tesettür, gün batımı portresi). Diğer renkler için aynı kalıpla yeni prompt istenirse yazılacak. v17 yarım boy promptları kısmen yetersiz.

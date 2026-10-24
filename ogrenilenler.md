@@ -2,6 +2,13 @@
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
 
+## 24 Ekim 2026 — Video 21 (rakam kenarı tırtıklı)
+- **Hata:** Telefon numarasının (0373) rakamları Cairo latin fontuyla doğrudan 1x/2x çizilince kenarlar tırtıklı çıktı. **Kural:** Şablonlar 4x çizilip LANCZOS ile küçültülür (`_kaynak\build21_hq.py`); tek tek `gen21.py 1|2` çalıştırma.
+
+## 24 Ekim 2026 — Video 21 (Windows'ta Pillow Arapça harf birleştirme / Cairo fontu)
+- **Ders (teknik):** Windows'taki standart Pillow kurulumunda `libraqm` yoktur (`features.check('raqm') == False`). `arabic_reshaper` varsayılan ayarla kullanıldığında ayrık (isolated) harfleri `0xFE8D` (`ا`), `0xFEB1` (`س`) gibi Presentation Forms-B kodlarına çevirir; ancak `@fontsource/cairo` alt küme fontlarında (`cairo-arabic-*.ttf`) ayrık harfler `0x06xx` taban Unicode kodlarında tutulur ve `0xFE8D` kutu (`[]`) olarak çıkar. Ayrıca tenvin (`ً`, `0x064B`) Cairo'da `مجاناً` kelimesinde çift çizgi taşması yapar.
+- **Kural:** Windows'ta `cairo-arabic-*.ttf` ile üretim yaparken `arabic_reshaper.ArabicReshaper({'use_unshaped_instead_of_isolated': True, 'delete_harakat': True})` + `bidi.algorithm.get_display` kullanılır; üretim sonrası `fontTools` `cmap` kontrolü ve gri zeminde kontak sayfası ile eksik/taşan glif olmadığı doğrulanır.
+
 ## 21 Ekim 2026 — Messenger turu (dosya yükleme)
 - **Ders (teknik):** Ataç butonu yerel dosya penceresi açar, DOM'da `input[type=file]` yoktur. Çözüm: sayfada `HTMLInputElement.prototype.click`'i yamala (file input'a `id=ab_upload_input` verip DOM'a ekle, açma), sonra `find` ile ref al, `file_upload` kullan. Yama sayfa yenilenene kadar yaşar; her kullanımdan önce eski `input#ab_upload_input`'ları sil.
 - **Ders:** `file_upload` Windows yolunu kabul etmez ("izin verilen dosyalar"); PDF önce `device_stage_files` ile hazırlanır, container yolu (`/mnt/user-data/uploads/ab ayçam/tüm kalıplar tek renk.pdf`) verilir.
@@ -64,3 +71,16 @@ Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni 
 - **Ders:** Kullanıcı bir sohbette tek tek "tamam mı, tekrar kontrol et" derse tüm metni baştan okuyup eksik madde ara; bu turda son güncelleme listesinde `ogrenilenler.md` eksikti.
 - **Ders:** Hesap/portföy doğrulaması eski numaraya gidiyorsa Meta destek asistanı talep açamıyor; kimlik yükleme yolu telefon uygulamasında aranmalı.
 - **Instagram:** AB sayfası portföyde değil; portföye eklemek eski numaraya kod istiyor. Meta destek asistanı talep açamıyor. Denenecek: telefon/başka tarayıcıdan "Kimlik Yükle", Meta kurtarma süreci.
+
+
+## 21.10.2026 – Sim glitter promptları
+- Hata: modeller 30-50 yaş yazıldı, Gemini 2. promptta yaşlı kadın üretti; sim yıldız/disk boyutu büyük çıktı. Kural: sim görsellerinde genellikle genç kadın (20'li yaşlar) yaz; sim boyutunu "çoğu 1-2 mm, 3-4 mm nadir, emin değilsen küçük" diye yaz.
+- Hata: "wrap" yazınca Gemini şalı robe/ceket gibi üretti. Kural: sim görsellerinde "rectangular long shawl draped over shoulders, both ends hanging, NOT a jacket/robe/kimono, no sleeves" (omuzda) veya "shawl wrapped as a hijab" (başta) yaz; elbise/metrajlık sahne kullanma.
+
+## 24 Ekim 2026 (Otomatik PDF Gönderimi ve Çoklu Ek Hatası)
+- **Hata:** Döngü sol listede konuşma geçişini doğrulamadan Ctrl+V tetiklediği için aynı kişiye 4 adet PDF üst üste eklendi.
+- **Sebep:** Business Suite liste tıklamasının konuşma başlığını (header) değiştirdiği beklenmeden ve ek kutusunda zaten dosya olup olmadığı kontrol edilmeden yapıştırma tetiklendi.
+- **Yeni Kural:**
+  1. Sol listeden kişiye tıklandıktan sonra üst başlıktaki (header) isim değişene kadar beklenir.
+  2. Gönderimden önce konuşma geçmişinde veya ek kutusunda kartelas 1 - fiyatlı.pdf var mı kesinlikle kontrol edilir. Varsa ASLA tekrar PDF yapıştırılmaz.
+  3. Metin ayrı, dosya ayrı gönderilir; ek yükleme kutusunda birden fazla çip varsa iptal edilip tek bir dosyaya düşürülür.
