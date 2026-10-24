@@ -27,6 +27,7 @@ Metinler: طباعة الاستراس بالمتر / على التوب كامل�
 
 ## Bayraklı bitiş (14.10.2026)
 **Kural: bayrakları Claude çizmez; kullanıcı kendi bayrak görsellerini koyar.** (Claude'un çizdiği Mısır kartalı kötü göründü, kullanıcı reddetti; dosyalar silindi.)
+- **ÖNEMLİ KURAL (24.10.2026 - Beyaz Boşluk Yasağı):** Kullanıcının Türk bayrağı dosyası (`images (1).png`) kare tuval içinde yatay bayrak olduğu için üstünde ve altında beyaz boşluklar vardır. Bayrağı daire içine koyarken doğrudan dosya boyutuna göre ölçekleme yapılmaz; önce beyaz kenar boşlukları tamamen kırpılır (sadece kırmızı bayrak alanı alınır) ve kırpılmış bayrağın yüksekliği daire çapını (`d_px`) tamamen dolduracak şekilde büyütülür. Dairenin altında veya üstünde kesinlikle beyaz alan kalmamalıdır.
 `E:\ab ayçam\video-tasarimlari\bayrak-sablon\2160x3840` ve `1080x1920`: 01 şeffaf (koyu vinyet), 02 koyu zeminli. İki daire deliği olan üst katman: altın çerçeveli, hafif parlama; Türk bayrağı solda, Mısır sağda; ortada kırmızı elmas, altında "جودة تركية داخل مصر" ve AB AYÇAM. Bayrak görselleri altındaki kanala konur. Delik merkezleri (2160x3840): sol (570,1760), sağ (1590,1760); çap 760 px (1080x1920'de 285,880 / 795,880, çap 380). Bayrak görseli deliği tamamen kaplayacak kadar büyütülür. Betik `_kaynak\bayrak.py <ölçek>` (design4k.py'ye bağlı).
 
 ## Facebook açıklama kuralları

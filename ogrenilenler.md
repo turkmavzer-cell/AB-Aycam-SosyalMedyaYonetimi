@@ -2,6 +2,11 @@
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
 
+## 24 Ekim 2026 — Video 22 (Türk bayrağı dairesinde alt/üst beyaz boşluk hatası)
+- **Hata:** Bayrak şablonunda Türk bayrağı (`images (1).png`) daire içine yerleştirilirken dairenin alt ve üst kısmında beyaz boşluklar (kenarlık) kaldı.
+- **Sebep:** Kaynak `images (1).png` dosyası kare (`225x225`) bir tuval içinde yatay dikdörtgen bayrak olduğu için kendi içinde üstte ve altta geniş beyaz boşluklar barındırıyor. Resmi doğrudan daire çapına (`d_px`) ölçekleyince bu beyaz boşluklar dairenin içine girdi.
+- **Kural (İstisnasız):** Herhangi bir bayrak veya görseli dairesel/çerçeveli yuvaya yerleştirmeden önce mutlaka dışındaki beyaz/şeffaf kenar boşluklarını (padding/letterbox) otomatik kırp (`autocrop` / sadece kırmızı bayrak alanını `getbbox` ile al), ardından **kırpılmış bayrak yüksekliği daire çapını (`d_px`) tamamen dolduracak ve taşacak şekilde** (`scale = d_px / cropped_height`) büyüt. Daire içinde asla beyaz zemin/boşluk kalmamalı.
+
 ## 24 Ekim 2026 — Video 22 (emoji glifi ve Windows ffmpeg)
 - **Hata:** Alt yazı üst rozetinde (`العينات مجاناً 🎁`) emoji kullanıldığında Cairo fontunda emoji glifi olmadığı için kutu (`[]`) çıktı; ön izleme sayfasında yakalanıp emoji kaldırıldı. **Kural:** Pillow + Cairo ile üretilen PNG şablonlarda asla emoji kullanma; yalnızca Arapça/Latin harf ve yıldız/elmas vektör çizimleri kullan.
 - **Ders (teknik):** Windows'ta CapCut içindeki `ffmpeg.exe` kısıtlı bir derlemedir (`-crf` parametresini tanımaz). Tam özellikli `libx264` + `xfade` render'ı için `uv run --with imageio-ffmpeg` içindeki `ffmpeg-win-x86_64-v7.1.exe` kullanılır.
