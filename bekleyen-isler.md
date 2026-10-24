@@ -20,11 +20,11 @@ Son güncelleme: 24.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 - **Hesap kilidi son tarihi:** 25 Ekim 2026 (ayrıntı için Project Context).
 - **Kargo politikası:** Gerçek kargo politikası kayıtta yok; soran olursa şimdilik WhatsApp'a yönlendirme şablonu kullanılıyor.
 - **TikTok:** Şirket hesabı @toqa7808 erişim kurtarma; kullanıcı haber verecek.
-- **Yeni gelen Messenger mesajları (24.10):** Son 6 saatte 11 yeni konuşma tespit edildi; Mısır lehçesi isimli metinler ve PDF ekleri hazırlandı, gönderim için kullanıcı onayı bekliyor (liste: `yerel-kayitlar\Messenger-kontrol-24-Ekim-2026.md`).
 - **Gönderilemeyen eski konuşmalar (17.10):** 2 konuşma (biri mesaj kutusuz, biri listede bulunamadı). İsimler `yerel-kayitlar` içinde; gerekirse yeniden denenecek.
 - **Cevapsız bırakılan:** 1 konuşma (cevabımız vardı, sonra cevapsız arama) — yeni mesaj atarsa cevaplanacak.
 
 ## Bitti
+- 24-25.10: 15 Messenger konuşmasına isimli Mısır lehçesi metin + yeni `kartelas 1 - fiyatlı.pdf` eki gönderildi (15/15 doğrulandı); liste: `yerel-kayitlar`. PDF kuralı güncellendi ve repoya commit edildi.
 - 21.10: Listedeki 16 konuşmadan 15'ine cevap gitti (doğrulandı); 1 kişiye iletilemedi.
 - 20.10: 8 yeni Messenger konuşmasına isimli metin + PDF gitti (8/8 doğrulandı); sayaç 0.
 - 19.10: Yorum turu (otomatik cevaplar doğrulandı, 1 elle cevap, 2 spam gizlendi).

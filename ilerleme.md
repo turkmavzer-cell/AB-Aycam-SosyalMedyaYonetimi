@@ -2,12 +2,11 @@
 
 Son güncelleme: 24.10.2026. En yeni kayıt en üstte.
 
-## 24 Ekim 2026 (Messenger ve Facebook son 6 saat kontrolü)
-- Masaüstündeki `AB Aycam - Chrome.lnk` kısayolu (`--remote-debugging-port=9222`, `AutomationProfile`) üzerinden Meta Business Suite oturumuna bağlanıldı.
-- **Facebook yorumları:** Son 6 saatte (13:25 - 19:25) yeni gönderi yorumu gelmediği tespit edildi.
-- **Messenger konuşmaları:** Son 6 saatte 11 yeni konuşma tespit edildi (5'i doğrudan metre fiyatı, adres veya parça baskı sorusu; 1'i model/şekil talebi; 5'i reklam karşılama mesajı almış ve katalog/yanıt bekleyen konuşmalar).
-- Fiyat, model ve kumaş baskısı soran kişilere proje kuralı doğrultusunda isimli Mısır lehçesi standart metin + `E:\ab ayçam\tüm kalıplar tek renk.pdf` eki + `wa.me/201066830373` linki hazırlandı; parça baskı soran kişiye metraj çalıştığımız bilgisi ve adres soran kişiye açık fabrika adresi eklendi.
-- Müşteri adları ve detaylı diyaloglar gizlilik gereği repoya eklenmeyip `yerel-kayitlar\Messenger-kontrol-24-Ekim-2026.md` dosyasına kaydedildi. Kullanıcı onayına sunuldu.
+## 24 - 25 Ekim 2026 (Messenger ve Facebook kontrolü & Yeni PDF ile cevaplama turu)
+- Kullanıcı kararıyla paylaşılan katalog PDF'i güncellendi: `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB). Kural dosyaları güncellendi ve repoya commit edildi (`9cc9428`).
+- **Facebook yorumları:** Son 6 saatte yeni gönderi yorumu olmadığı teyit edildi.
+- **Messenger cevap turu:** 15 konuşmaya isimli Mısır lehçesi standart metin + `kartelas 1 - fiyatlı.pdf` eki + `https://wa.me/201066830373` linki başarıyla gönderildi ve sohbette doğrulandı.
+- Gönderim yapılan konuşmaların isim ve detay dökümü gizlilik kuralı gereği repoya eklenmeyip `yerel-kayitlar\Messenger-cevap-listesi-24-Ekim-2026.md` dosyasına işlendi.
 
 ## 24 Ekim 2026 (Video 22 - desenler: ritmik kurgu, müzik, alt yazı ve bitiş şablonları)
 - `E:\ab ayçam\premiere pro\22 - desenler\videolar` içindeki 35 WhatsApp videosu ve referans videolar (`video 21 - 1.mp4`, `yapılan video 1.mp4`, `17T mini.mp4`) kare kare incelendi. Tekrar eden klipler elenerek en parlak ve farklı 14 desen/üretim klibi seçildi.
