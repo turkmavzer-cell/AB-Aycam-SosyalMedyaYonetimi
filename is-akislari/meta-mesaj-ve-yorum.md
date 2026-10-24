@@ -1,10 +1,10 @@
 # Meta mesaj ve yorum iş akışı
 
-## Mesaj cevap kuralı (18.10.2026, kullanıcı kararı)
-- Fiyat soran ve model/şekil isteyen herkese Messenger'da: kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\tüm kalıplar tek renk.pdf` dosyası ek olarak gönderilir.
+## Mesaj cevap kuralı (Güncelleme: 24.10.2026, kullanıcı kararı)
+- Fiyat soran ve model/şekil isteyen herkese Messenger'da: kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir (24.10.2026'ya kadar `tüm kalıplar tek renk.pdf` kullanılıyordu, bu tarihte fiyatlı kartela PDF'ine geçildi).
 - Metin (Mısır lehçesi, her mesajda kişinin adı kullanılır): `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
-- Fiyat mesajda yazılmaz, fiyat sadece WhatsApp'ta verilir.
-- Her gönderimden önce PDF yolu kontrol edilir. Dosya yoksa ya da adı değiştiyse gönderim durdurulur, kullanıcıya bildirilir; başka dosya gönderilmez.
+- Fiyat mesajda yazılmaz, detaylar ve sipariş için WhatsApp'a yönlendirilir.
+- Her gönderimden önce PDF yolu kontrol edilir (`E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf`). Dosya yoksa ya da adı değiştiyse gönderim durdurulur, kullanıcıya bildirilir; başka dosya gönderilmez.
 - Her mesajda gönderilen linkin sonunda eksik hane olmadığı kontrol edilir (17.10'da bir mesajda son hane eksik çıktı, düzeltme mesajı gönderildi).
 - Eski kural (model/fiyat sadece WhatsApp) güncellendi: model bilgisi PDF ile verilebilir, fiyat hâlâ sadece WhatsApp.
 

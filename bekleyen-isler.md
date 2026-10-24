@@ -20,7 +20,7 @@ Son güncelleme: 24.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 - **Hesap kilidi son tarihi:** 25 Ekim 2026 (ayrıntı için Project Context).
 - **Kargo politikası:** Gerçek kargo politikası kayıtta yok; soran olursa şimdilik WhatsApp'a yönlendirme şablonu kullanılıyor.
 - **TikTok:** Şirket hesabı @toqa7808 erişim kurtarma; kullanıcı haber verecek.
-- **Yeni gelen Messenger mesajları:** Fiyat/model/kumaşa baskı soran herkese isimli metin + PDF kuralı geçerli (is-akislari/meta-mesaj-ve-yorum.md). Bir sonraki kontrolde yeni mesajlara uygulanacak.
+- **Yeni gelen Messenger mesajları (24.10):** Son 6 saatte 11 yeni konuşma tespit edildi; Mısır lehçesi isimli metinler ve PDF ekleri hazırlandı, gönderim için kullanıcı onayı bekliyor (liste: `yerel-kayitlar\Messenger-kontrol-24-Ekim-2026.md`).
 - **Gönderilemeyen eski konuşmalar (17.10):** 2 konuşma (biri mesaj kutusuz, biri listede bulunamadı). İsimler `yerel-kayitlar` içinde; gerekirse yeniden denenecek.
 - **Cevapsız bırakılan:** 1 konuşma (cevabımız vardı, sonra cevapsız arama) — yeni mesaj atarsa cevaplanacak.
 

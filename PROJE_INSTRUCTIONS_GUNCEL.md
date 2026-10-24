@@ -62,10 +62,10 @@ Yaptığın **HER** iş, güncelleme, yeni prompt, liste, rapor veya not — ba�
 - **WhatsApp Yönlendirmesi:** Müşteriye WhatsApp'a yönlendirirken sadece `https://wa.me/201066830373` linki kullanılır; numara kesinlikle metin olarak yazılmaz. Fiyat sadece WhatsApp'tan verilir.
 - **Adres:** Adres sorulursa herkese açık adres yazılabilir:  
   `العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`
-- **Mesajlarda Kişiye Özel Hitap:** Fiyat, model/şekil veya kumaşa baskı soran herkese Messenger'da kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\tüm kalıplar tek renk.pdf` dosyası ek olarak gönderilir ve *"tüm modellerimiz PDF'te mevcuttur"* denir.  
+- **Mesajlarda Kişiye Özel Hitap:** Fiyat, model/şekil veya kumaşa baskı soran herkese Messenger'da kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir ve *"tüm modellerimiz PDF'te mevcuttur"* denir.  
   **Standart Metin:**  
-  `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختar اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
-- **PDF Kontrolü:** Her gönderimden önce PDF yolunu kontrol et. Klasör yolu veya dosya adı değişmişse/bulunamıyorsa göndermeyi durdur ve kullanıcıya MUTLAKA bildir; başka PDF (`tüm kalıplar.pdf`, `tüm kalıplar rengareng.pdf`) gönderme.
+  `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
+- **PDF Kontrolü:** Her gönderimden önce PDF yolunu kontrol et (`E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf`). Klasör yolu veya dosya adı değişmişse/bulunamıyorsa göndermeyi durdur ve kullanıcıya MUTLAKA bildir; başka PDF gönderme.
 - **Gönderim Doğrulaması:** Her mesajda gönderilen `wa.me` linkinin eksiksiz olduğunu kontrol et; başarıyı sohbet listesinde *"Bir dosya eki gönderdin"* önizlemesiyle doğrula. "Önerilen yanıt" çubuğunu kullanma (yazılı numara içeriyor).
 - **Raporlama:** Toplu cevap turlarında sonunda kullanıcıya liste ver: kime cevap verildi, ne sormuş, ne yazıldı.
 - **Güvenlik & Onay:** Şifre, doğrulama kodu girme. Mesaj gönderme, silme, reklam seti/otomasyon değişikliği ve ödemede önce onay al (kullanıcı toplu cevap turunu açıkça onayladıysa o tur kapsamında gönderilebilir).
