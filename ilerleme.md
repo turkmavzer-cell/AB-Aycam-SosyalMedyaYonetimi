@@ -2,6 +2,20 @@
 
 Son güncelleme: 24.10.2026. En yeni kayıt en üstte.
 
+## 24 Ekim 2026 (Video 22 - desenler: ritmik kurgu, müzik, alt yazı ve bitiş şablonları)
+- `E:\ab ayçam\premiere pro\22 - desenler\videolar` içindeki 35 WhatsApp videosu ve referans videolar (`video 21 - 1.mp4`, `yapılan video 1.mp4`, `17T mini.mp4`) kare kare incelendi. Tekrar eden klipler elenerek en parlak ve farklı 14 desen/üretim klibi seçildi.
+- **Müzik ve ritim senkronu:** `Amr Diab & Orange - Lola El Banat` (`48,50 sn` noktasından başlatıldı; `5,70 sn`'de tam nakarat ritim patlaması ile ana desen geçişleri başlıyor; tüm kesimler `122.5 BPM` vuruşlarına kilitlendi).
+- **Görsel iyileştirme ve efektler:** WhatsApp videolarına LANCZOS ölçekleme, taş parlamasını belirginleştiren `unsharp` keskinleştirme, kontrast/doygunluk (`contrast=1.06, saturation=1.12`), dinamik yumuşak kamera pan/zoom hareketi, her vuruş kesiminde hafif parlama (beat-flash) ve ritmik geçişler (`fadewhite`, `slideleft`, `slideright`, `circleopen`, `wipeleft`, `slidedown`, `fadeblack`) uygulandı.
+- **Alt yazılar ve 4 ana vurgu (Mısır Amme Arapçası, 4x LANCZOS üretim):**
+  1. **40 farklı model:** `عندنا أكتر من 40 موديل ورسمة` ve `40 موديل مختلف على أي خامة وأي لون` (`40+ موديل` rozetli).
+  2. **3.20 mt eninde baskı:** `بنطبع لحد عرض 3.20 متر` / `حتى الأقمشة العريضة بنطبع عليها بفرش كامل` (`عرض 3.20 متر` rozetli).
+  3. **Mısır'da bir Türk fabrikası:** `إحنا مصنع تركي في مصر`, `إحنا أتراك في مصر · جودة وخبرة تركية` ve kullanıcının bayrak görselleriyle (`images.png`, `images (1).png`) oluşturulan `مصنع تركي على أرض مصر` bayrak sahnesi.
+  4. **Ücretsiz numune baskısı:** `طباعة العينات مجاناً قبل ما تبدأ شغلك` (`العينات مجاناً` rozetli), özel ücretsiz numune kartı ve birleşik bitiş iletişim kartı (sadece `0373`).
+- **Çıktılar:**
+  - Hazır kurgu videosu: `E:\ab ayçam\premiere pro\22 - desenler\video 22 - 1.mp4` (`1080x1920`, 30 fps, `75,5 sn`, 91,6 MB).
+  - Premiere Pro 4K XML sekansı: `E:\ab ayçam\premiere pro\22 - desenler\video22_premiere_sekans.xml` (`2160x3840`).
+  - Şablon klasörü: `E:\ab ayçam\premiere pro\22 - desenler\yazi-ve-bitis-sablonlari\` (`2160x3840\`, `1080x1920\`, `22_desenler_yazilar.srt`, `OKU-BENI.md`, `_kaynak\gen22.py`) ve `_calisma\build_video22.py`, `_calisma\mkxml22.py`.
+
 ## 24 Ekim 2026 (Video 21 - geniş kumaş alt yazı ve ücretsiz numune bitiş şablonları)
 - `premiere pro\21 - geniş kumaş\video 21 video.prproj` okundu (açık projeye dokunulmadı). Sekans (`VID_20261015_152528`, 2160x3840) içindeki 12 video klibinin kareleri çıkarılıp incelendi; kliplerin saniye aralıklarına ve görüntülerine göre Mısır Amme Arapçası (`العامية المصرية`) ile zamanlı alt yazı şablonları üretildi.
 - **Revizyon (3.20 mt en vurgusu):** Kullanıcının isteğiyle **"3.20 mt eninde kumaşlara da baskı yapılabildiği"** (`بنطبع على القماش العريض لحد عرض 3.20 متر`, `حتى الأقمشة بعرض 3.20 متر بنطبع عليها`, `طباعة لحد عرض 3.20 متر بالمتر / مناسب للمصانع وورش الملابس والمفروشات`) bilgisi 02 (`5,7–9,3 sn`), 04 (`14,8–18,2 sn`) ve 09 (`35,5–40,1 sn`) numaralı kliplere, açılış/bitiş kartlarına ve 2 ekstra bağımsız şablona (`21_ek_...`, `22_ek_...`) işlendi.

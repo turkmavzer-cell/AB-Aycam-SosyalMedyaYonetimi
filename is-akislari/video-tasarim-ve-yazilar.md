@@ -69,3 +69,17 @@ Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/2010
 - **3.20 mt en vurgusu (kullanıcı isteği):** 02 (`5,7–9,3 sn`), 04 (`14,8–18,2 sn`) ve 09 (`35,5–40,1 sn`) numaralı kliplerin şablonları ile açılış/bitiş kartlarına **"3.20 mt eninde kumaşlara da baskı yapılabildiği"** (`بنطبع على القماش العريض لحد عرض 3.20 متر`, `حتى الأقمشة بعرض 3.20 متر بنطبع عليها`, `طباعة لحد عرض 3.20 متر بالمتر / مناسب للمصانع وورش الملابس والمفروشات`) eklendi; ayrıca istenen her yere konabilecek 2 bağımsız şablon (`21_ek_320_metre_en_alt_bant_seffaf.png`, `22_ek_320_metre_en_rozetli_alt_bant_seffaf.png`) üretildi.
 - Videonun sonu için (`75,6–81,1+ sn`) Mısır Amme Arapçası ile "numuneler ücretsiz baskısı yapılır" (`عرض خاص / طباعة العينات مجاناً / أي عينة تجيبها بنطبع لك عليها استراس مجاناً / جرّب شغلنا على قماشك من غير أي تكلفة`) şablonunun 5 varyantı üretildi: şeffaf orta kart (`14`), koyu zeminli tam ekran kart (`15`), alt yazı bandı (`16`), ücretsiz numune + iletişim (sadece 0373) birleşik bitiş kartı şeffaf/koyu (`17`/`18`), standart iletişim kartı şeffaf/koyu (`19`/`20`).
 - Ayrıca V2'deki açılış logosu `19 - sim` klasöründen (`طباعة الجليتر بالمتر`) kalmış olduğu için taş baskı karşılığı (`00_acilis_0s0-2s7sn_logo_strass_seffaf.png`: `طباعة الاستراس بالمتر / على القماش العريض لحد عرض 3.20 متر`) eklendi.
+
+## Video 22 - desenler (24.10.2026)
+- Kaynak: `E:\ab ayçam\premiere pro\22 - desenler\videolar` içindeki 35 WhatsApp desen videosu incelendi; tekrar edenler elenip en net ve farklı 14 desen/üretim klibi seçildi.
+- Müzik ve ritim senkronu: `Amr Diab & Orange - Lola El Banat` (`48,50 sn`'den başlatıldı; `5,70 sn`'de nakarat ritim patlaması ile ana desen geçişleri başlıyor; tüm kesimler `122.5 BPM` — 8 vuruş `3,92 sn` ve 6 vuruş `3,00 sn` — müzik ritmine kilitlendi).
+- Görsel iyileştirme ve efektler: WhatsApp videolarına LANCZOS ölçekleme, taş parlamasını belirginleştiren `unsharp` filtreleme, kontrast/doygunluk (`contrast=1.06, saturation=1.12`), dinamik yumuşak kamera pan/zoom hareketi, her vuruş kesiminde hafif parlama (beat-flash) ve ritmik geçişler (`fadewhite`, `slideleft`, `slideright`, `circleopen`, `wipeleft`, `slidedown`, `fadeblack`) uygulandı.
+- 4 Ana Vurgu (Mısır Amme Arapçası):
+  1. **40 farklı model:** `عندنا أكتر من 40 موديل ورسمة` / `40 موديل مختلف على أي خامة وأي لون` (üst rozet: `40+ موديل`).
+  2. **3.20 mt eninde baskı:** `بنطبع لحد عرض 3.20 متر` / `حتى الأقمشة العريضة بنطبع عليها بفرش كامل` (üst rozet: `عرض 3.20 متر`).
+  3. **Mısır'da bir Türk fabrikası:** `إحنا مصنع تركي في مصر` / `إحنا أتراك في مصر · جودة وخبرة تركية` / `مصنع تركي على أرض مصر` (üst rozet: `جودة تركية في مصر` + kullanıcının `images.png` ve `images (1).png` bayrak görselleriyle hazırlanan Türk-Mısır bayrak sahnesi).
+  4. **Ücretsiz numune baskısı:** `طباعة العينات مجاناً قبل ما تبدأ شغلك` / `أي عينة تجيبها بنطبع لك عليها استراس ببلاش` (üst rozet: `العينات مجاناً` + özel ücretsiz numune kartı + birleşik bitiş iletişim kartı).
+- Çıktılar:
+  - Hazır kurgu videosu: `E:\ab ayçam\premiere pro\22 - desenler\video 22 - 1.mp4` (`1080x1920`, 30 fps, `75,5 sn`, H.264 + AAC 256 kbps).
+  - Premiere Pro 4K XML sekansı: `E:\ab ayçam\premiere pro\22 - desenler\video22_premiere_sekans.xml` (`2160x3840`).
+  - Şablonlar ve kaynak betikler: `E:\ab ayçam\premiere pro\22 - desenler\yazi-ve-bitis-sablonlari\` (`2160x3840\`, `1080x1920\`, `22_desenler_yazilar.srt`, `OKU-BENI.md`, `_kaynak\gen22.py`) ve `_calisma\build_video22.py`, `_calisma\mkxml22.py`.

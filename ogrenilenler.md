@@ -2,6 +2,10 @@
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
 
+## 24 Ekim 2026 — Video 22 (emoji glifi ve Windows ffmpeg)
+- **Hata:** Alt yazı üst rozetinde (`العينات مجاناً 🎁`) emoji kullanıldığında Cairo fontunda emoji glifi olmadığı için kutu (`[]`) çıktı; ön izleme sayfasında yakalanıp emoji kaldırıldı. **Kural:** Pillow + Cairo ile üretilen PNG şablonlarda asla emoji kullanma; yalnızca Arapça/Latin harf ve yıldız/elmas vektör çizimleri kullan.
+- **Ders (teknik):** Windows'ta CapCut içindeki `ffmpeg.exe` kısıtlı bir derlemedir (`-crf` parametresini tanımaz). Tam özellikli `libx264` + `xfade` render'ı için `uv run --with imageio-ffmpeg` içindeki `ffmpeg-win-x86_64-v7.1.exe` kullanılır.
+
 ## 24 Ekim 2026 — Video 21 (rakam kenarı tırtıklı)
 - **Hata:** Telefon numarasının (0373) rakamları Cairo latin fontuyla doğrudan 1x/2x çizilince kenarlar tırtıklı çıktı. **Kural:** Şablonlar 4x çizilip LANCZOS ile küçültülür (`_kaynak\build21_hq.py`); tek tek `gen21.py 1|2` çalıştırma.
 

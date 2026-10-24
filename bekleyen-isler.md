@@ -3,6 +3,7 @@
 Son güncelleme: 24.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 
 ## Açık
+- **Video 22 (desenler) kurgusu ve şablonları (24.10):** `premiere pro\22 - desenler\video 22 - 1.mp4` (müzikli, ritmik geçişli, 4 ana vurgulu hazır kurgu) ve `video22_premiere_sekans.xml` + `yazi-ve-bitis-sablonlari\` üretildi; kullanıcı izleyip onaylayacak veya revizyon (saniye/klip/müzik) isterse `_calisma\build_video22.py` üzerinden güncellenecek.
 - **Video 21 (geniş kumaş) şablonları (24.10):** `premiere pro\21 - geniş kumaş\yazi-ve-bitis-sablonlari\` üretildi; kullanıcı Premiere'de sekansa ekleyip deneyecek, revizyon isterse `gen21.py` üzerinden güncellenecek.
 - **Sim glitter 28 prompt (21.10):** Gemini'de denenmedi; kullanıcı denedikçe "oldu/olmadı" geri bildirimi verecek, onaylananlar kelimesi kelimesine promptlar\'a onaylı işlenecek. Sim çok yoğun/çok büyük çıkarsa dosyadaki ek cümleler (daha az sim / biraz büyük) denenecek.
 - **Gitmeyen mesaj (21.10):** 1 kişi yeni mesaj isteklerine kapalı, cevap iletilemedi. Yazarsa/ listede görünürse tekrar denenecek; ayrıntı yerel-kayitlar'da.
