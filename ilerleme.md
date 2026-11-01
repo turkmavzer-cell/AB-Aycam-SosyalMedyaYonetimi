@@ -1,6 +1,35 @@
 # İlerleme kaydı
 
-Son güncelleme: 24.10.2026. En yeni kayıt en üstte.
+Son güncelleme: 01.11.2026. En yeni kayıt en üstte.
+
+## 1 Kasım 2026 (Video 23 - 17T Kurgu PRO Revizyonu: Tam Ekran Net Taş Detayı & Pürüzsüz Geçişler)
+- Kullanıcı geri bildirimi doğrultusunda `video 23 - 17T kurgu.mp4` tamamen yeniden oluşturuldu (`_calisma\build_video23_pro.py`, `seg_pro\`).
+- **Tam Ekran (`1080x1920`) Yakın Plan Model Görselleri:** Küçük PiP kutuları, yarı-ekran bölmeler ve bozuk Arapça yazılı 4'lü gridler kaldırıldı. `1792x2400` orijinal görsellerden sıfır sündürme (`1:1` gerçek piksel oranı) ile doğrudan taş işlemelerine odaklanan `1080x1920` tam ekran kadrajlar alındı ve `UnsharpMask` ile kristal taş fasetleri belirginleştirildi.
+- **Takılmasız ve Göz Yormayan Geçişler:** Görsellerde 1 piksellik sıçrama/titreme yaratan FFmpeg tam-sayı `crop` kaydırma ifadesi kaldırıldı; model görselleri %100 sabit ve net tutuldu. Göz yoran sert `slide`/`wipe`/`circleopen` geçişleri yerine 115.4 BPM vuruşlara kilitli `0.40 sn` yumuşak optik erime (`fade` cross-dissolve) uygulandı.
+- **4K Dikey Yön ve Oran Düzeltmesi:** Kaynak videolardaki `-noautorotate` ve `displaymatrix` kaynaklı yön/oran bozulması giderildi.
+- **Çıktılar:**
+  - Master Video: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video 23 - 17T kurgu.mp4` (`1080x1920`, 30 fps CFR, `62.4 sn`, H.264 CRF 17 + AAC 256k).
+  - Premiere Pro Sekansı: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video23_premiere_sekans.xml` (19 tam ekran segment + ses + katmanlar).
+  - Rehber ve Açıklama: `OKU-BENI.md` ve `video23_facebook_aciklama.txt`.
+
+## 1 Kasım 2026 (17T Video Modelleri - Kare Çıkarma ve Nanobanana Promptları)
+- `E:\ab ayçam\premiere pro\23 - video\17T` klasöründeki 16 adet 4K dikey video (2160x3840) analiz edildi.
+- Her videodan OpenCV Laplacian varyans analiziyle en sarsıntısız ve net anlar tespit edilip `E:\ab ayçam\premiere pro\23 - video\17T\ekran görüntüleri\` klasörüne 4K yüksek kalitede JPG ve 1080p önizleme kareleri kaydedildi.
+- 16 video taranarak 9 farklı benzersiz kumaş ve taş deseni (Baklava dilimi, leopar rozet halka, üçgen damla serpme, dikey çizgili yağmur, kelebek motifi, siyah rugan gözenekli doku, sevimli ayıcık, geometrik madalyonlu dikey hat, yıldız tozu serpme) gruplandırıldı ve `farkli_modeller\` klasöründe adlandırıldı.
+- Her bir benzersiz model için Nanobanana (Gemini Image Generation) uyumlu, kumaş ve taş sadakatli, abiye/şal/loungewear katalog sahneleri içeren detaylı İngilizce görsel üretim promptları hazırlandı ve `promptlar\17T_video_modelleri_nanobanana_promptlari.md` dosyasına kaydedildi.
+- Kullanıcı isteği doğrultusunda 9 model için Zümrüt Yeşili, Gece Mavisi (Safir), Bordo (Yakut), Jet Black, Fildişi Krem, Gül Kurusu ve Latte Krem renklerinde; başa sarılı hijab, tam boy akan kaftan/abaya duruşu, altın saat omuz stolesi, dinamik sokak yürüyüşü ve şık loungewear pozlarında yeni prompt seti oluşturuldu (`promptlar\17T_video_modelleri_yeni_renk_ve_poz_promptlari.md`).
+- `E:\ab ayçam\premiere pro\23 - video\17T\ekran görüntüleri\farkli_modeller\modeller` klasöründeki 7 dijital taş şablonu görseli (`8.jpg`, `10.jpg`, `16.jpg`, `31 copy.jpg`, `33 copy.jpg`, `37 copy.jpg`, `41 copy.jpg`) incelendi; her biri için 3 farklı kompozisyon ve renkte (toplam 21 Nanobanana promptu) katalog prompt seti üretilip `promptlar\modeller_klasoru_3x_kompozisyon_ve_renk_promptlari.md` dosyasına kaydedildi. Siyah zemin yalıtımı kuralı promptlara işlendi.
+
+## 31 Ekim 2026 (Tüm Okunmamış Yorum ve Mesajların Taranması & Messenger Cevaplama Turu)
+- Meta Business Suite üzerinde tüm okunmamış Facebook gönderileri (17 gönderi) ve Messenger gelen kutusu (16 sohbet) tek tek gözden geçirildi, kullanıcıya tam döküm sunuldu.
+- Kullanıcı onayı doğrultusunda Messenger'da yanıt bekleyen 7 müşteriye isimli Mısır lehçesi standart metin + eksiksiz `https://wa.me/201066830373` linki ve güncel `kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası başarıyla iletildi.
+- Gönderimler konuşma geçmişi ve dosya eki önizlemesiyle teyit edildi. Müşteri adları ve detayları gizlilik kuralı gereği repoya eklenmeyip `github-guncelleme\yerel-kayitlar\cevaplanan-musteriler-31-10-2026.md` dosyasına kaydedildi.
+
+## 29 Ekim 2026 (Son 1 haftalık Messenger ve Facebook yorum turu - Tamamlama & Fiyatlı PDF Gönderimi)
+- Kullanıcı onayı ve talimatı doğrultusunda Messenger'daki hem cevapsız olanlara hem de Meta'nın otomatik mesaj attığı konuşmalara isimli Mısır lehçesi standart metin + güncel `kartelas 1 - fiyatlı.pdf` (8,01 MiB) eki iletildi.
+- **Messenger:** 8 konuşmaya eksiksiz `https://wa.me/201066830373` linki ve PDF gönderildi (8/8 başarıyla doğrulandı).
+- **Facebook yorumları:** Cevapsız kalan 2 yoruma (adres sorusu ve metre fiyatı) kurallara uygun şekilde WhatsApp yönlendirmeli ve fabrika açık adresli yanıtlar verildi; 1 spam reklam yorumu gizlendi.
+- Müşteri adları ve detaylı konuşma dökümü gizlilik kuralı gereği repoya eklenmeyip `yerel-kayitlar\Messenger-cevap-listesi-29-Ekim-2026.md` dosyasına kaydedildi.
 
 ## 24 - 25 Ekim 2026 (Messenger ve Facebook kontrolü & Yeni PDF ile cevaplama turu)
 - Kullanıcı kararıyla paylaşılan katalog PDF'i güncellendi: `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB). Kural dosyaları güncellendi ve repoya commit edildi (`9cc9428`).

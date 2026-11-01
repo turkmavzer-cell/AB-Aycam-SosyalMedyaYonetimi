@@ -1,6 +1,6 @@
 # İş akışı: Video tasarımları, yazı katmanları ve Facebook açıklaması
 
-Son güncelleme: 24.10.2026
+Son güncelleme: 01.11.2026
 
 ## Amaç
 Premiere'de hazırlanan dikey videolara (Facebook/Reels) şeffaf PNG tasarım katmanları, zamanlı Arapça yazılar, iletişim kartı ve 4 fotoğraflı bitiş sahnesi eklemek.
@@ -84,3 +84,15 @@ Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/2010
   - Hazır kurgu videosu: `E:\ab ayçam\premiere pro\22 - desenler\video 22 - 1.mp4` (`1080x1920`, 30 fps, `75,5 sn`, H.264 + AAC 256 kbps).
   - Premiere Pro 4K XML sekansı: `E:\ab ayçam\premiere pro\22 - desenler\video22_premiere_sekans.xml` (`2160x3840`).
   - Şablonlar ve kaynak betikler: `E:\ab ayçam\premiere pro\22 - desenler\yazi-ve-bitis-sablonlari\` (`2160x3840\`, `1080x1920\`, `22_desenler_yazilar.srt`, `OKU-BENI.md`, `_kaynak\gen22.py`) ve `_calisma\build_video22.py`, `_calisma\mkxml22.py`.
+
+## Video 23 - 17T kurgu PRO (01.11.2026)
+- Kaynak: `E:\ab ayçam\premiere pro\23 - video\17T` içindeki 16 adet 4K dikey kumaş videosu ve `17T\modeller\` içindeki 26 adet `1792x2400` (`3:4`) AI model görseli.
+- **Müzik ve Ritim Senkronu:** `Ahmed Saad - Kooty` (`115.4 BPM`, 1 vuruş = `0,520 sn`). Tüm sahneler 4 vuruş (`2,08 sn`), 6 vuruş (`3,12 sn`), 8 vuruş (`4,16 sn`) ve 10 vuruş (`5,20 sn`) bloklarına kilitlendi (`62,40 sn` toplam süre).
+- **Kalite ve Kurgu Standartları (PRO Kuralları):**
+  1. **Tam Ekran (`1080x1920`) Yakın Plan Görseller:** Küçük PiP kutuları (`370x520`), yarı-ekran bölmeler (`split-screen`) ve 4'lü küçük ızgaralar taş detaylarını kaybettirdiği için kesinlikle kullanılmaz. `1792x2400` görsellerden sıfır sündürme (`1:1` gerçek piksel oranı) ile doğrudan giysi ve taş işlemelerine odaklanan `9:16` pencereden (`1170x2080` veya `1260x2240` → `1080x1920` Lanczos) tam ekran kadraj alınır ve `UnsharpMask` ile kristal taş fasetleri belirginleştirilir.
+  2. **Takılmasız ve Göz Yormayan Geçişler:** Sabit görsellerde 1 piksellik sıçrama/titreme yaratan FFmpeg tam-sayı `crop` kaydırma ifadesi kullanılmaz; model görselleri %100 sabit ve titremesiz tutulur. Göz yoran `slide`/`wipe`/`circleopen` geçişleri yerine yalnızca `0,40 sn` yumuşak optik erime (`xfade=transition=fade`) ve bitiş kartlarında `fadeblack` kullanılır.
+  3. **Orijinal Bayrak Şablonu:** Bayrak sahnesi (`seg_16`) `premiere pro\17 - whatsaptan gelen videolar\video-tasarimlari\bayrak-sablon` içindeki orijinal `01_bayrak_sablonu_seffaf.png`, `images (1).png` ve `images.png` dosyalarından, elle boyama yapılmadan, bayrak yüksekliği `380 px` daire çapını tam dolduracak şekilde ölçeklenerek (`shift_x=-46` ile hilal-yıldız ortalanarak) üretilir.
+- **Çıktılar:**
+  - Hazır kurgu videosu: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video 23 - 17T kurgu.mp4` (`1080x1920`, 30 fps CFR, `62,40 sn`, `45,22 MB`).
+  - Premiere Pro XML sekansı: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video23_premiere_sekans.xml`.
+  - Facebook açıklaması ve rehber: `video23_facebook_aciklama.txt`, `OKU-BENI.md`, `_calisma\build_video23_pro.py`, `_calisma\join_pro.py`, `_calisma\mkxml23.py`.
