@@ -1,3 +1,14 @@
+## 2 Kasım 2026 (Öğleden Sonra) — Video 23 Reels Yorumu ve 3 Messenger Yanıtı (kartelas 1 - fiyatlı.pdf)
+- **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook gönderi yorumları tarandı.
+- **Messenger Cevapları:** 3 müşteriye (`Hesham Mohamed Yassin`, `Karim Mohammed`, `جنة الخلد`) Mısır lehçesi isimli hitap ve `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası başarıyla iletildi.
+- **Facebook Reels Yorumu:** Yeni paylaşılan Video 23 kurgu gönderisi altına Türk sateni soran müşteriye (`Hesham Mohamed Yassin`) WhatsApp yönlendirmeli resmi sayfa yanıtı verildi.
+- **Doğrulama:** 4/4 işlem tekil doğrulama kapısıyla DOM üzerinden teyit edildi. Detaylar `yerel-kayitlar\cevaplanan-musteriler-02-11-2026.md` dosyasına kaydedildi.
+
+## 2 Kasım 2026 — Messenger Eksik PDF Eki Düzeltmesi & Onay Doğrulaması Kuralı
+- **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook yorumları incelendi. Okunmamış yorum bulunmadığı, 1 adet okunmamış mesaj olduğu teyit edildi.
+- **Eksik PDF Düzeltmesi:** Cumartesi günkü yanıtlarda metin gittiği halde PDF iliştirilmeyen 8 müşteriye (`Khaled El Kady`, `Dada Dada`, `Gab Reyal`, `Mone Mone`, `Doaa Sami`, `محمد ابوراس`, `سيد ربيع`, `Macheal Abdo`) kullanıcı onayıyla `kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası başarıyla iletildi. Her bir müşteride gönderim balonu DOM üzerinden teyit edildi.
+- **Kural Güncellemesi:** "Hiçbir cevap verilen insan onay doğrulaması olmadan geçilmesin" kuralı bağlayıcı hale getirildi. İki aşamalı Türkçe onay tablosu ve kişi bazlı tekil doğrulama kapısı `PROJE_INSTRUCTIONS_GUNCEL.md`, `meta-mesaj-ve-yorum-cevaplama.md`, `meta-mesaj-ve-yorum.md` ve `ogrenilenler.md` dosyalarına işlendi.
+
 # İlerleme kaydı
 
 Son güncelleme: 01.11.2026. En yeni kayıt en üstte.

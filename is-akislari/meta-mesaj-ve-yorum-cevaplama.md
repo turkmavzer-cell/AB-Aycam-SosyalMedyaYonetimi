@@ -16,13 +16,19 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
    - Sayfa yüklenirken boş görünebilir, 5-8 sn bekle.
 2. Okunmamış sayıları ve "Okunmamış" filtresini kullan. Listeyi aşağı kaydırıp daha eski konuşmaları yükle. Son mesajın "Sen:" ile başlaması bizim cevap verdiğimiz anlamına gelir; müşterinin yazdığı son mesajlar cevap bekleyenlerdir.
 3. Yorumlarda her gönderiyi aç; altında "1 yanıtı gör" yazan yorumların cevabı var mı genişleterek doğrula (tıklama yeri yorum altındaki bu yazı). Sayfa adı üzerine gelince açılan profil kartını X ile kapat.
-4. **Listeyi Türkçe tablo olarak çıkar:** kim yazmış, ne yazmış, yazılacak cevap. Müşteri adı sadece sohbette gösterilir, repoya yazılmaz.
-5. Kullanıcı onayı sonrası cevapları yaz (kullanıcı "hepsine cevap ver" demeden gönderme).
-6. Messenger gönderirken: konuşmayı aç, yanıt kutusuna tıkla (konumu sayfaya göre değişir; yazı yazmadan önce ekran görüntüsüyle doğrula), Arapça metni yaz, Enter. Önerilen yanıt kutusu bazen yanıt alanına metin yazabilir; gerekirse ctrl+a + Delete ile temizle.
-7. Yorum yanıtı: yorumun altındaki "Yanıtla"ya tıkla, yaz, Enter.
+4. **Listeyi Türkçe tablo olarak çıkar (İki Aşamalı Onay):** Kim yazmış, soru türü, yazılacak metin, eklenecek PDF (`kartelas 1 - fiyatlı.pdf`). Müşteri adı sadece sohbette onay için gösterilir, git reposuna yazılmaz.
+5. **Kullanıcı Onayı Olmadan Asla Başlama:** Kullanıcı açıkça *"onayla / gönder / başla"* demeden tek bir mesaj dahi gönderilmez.
+6. **Messenger gönderirken (Kişi Başına Tekil Doğrulama Kapısı):**
+   - Konuşmayı aç ve sağ paneldeki başlık adının hedef müşteriyle birebir eşleştiğini doğrula.
+   - Yanıt kutusuna Arapça metni yaz.
+   - PDF gerekiyorsa ataç/dosya yükleme ile `kartelas 1 - fiyatlı.pdf` dosyasını ekle.
+   - Yükleme ilerleme çubuğu (progressbar) bitmeden ve Gönder butonu aktif siyah renge (`rgb(0, 0, 0)`) dönmeden tıklama yapma.
+   - Gönder'e tıkla.
+   - **Tekil Doğrulama Şartı:** Sağ paneldeki mesaj listesinde PDF ekini ve metni gör; sol konuşma listesinde *"Bir dosya eki gönderdin."* (veya iletilen metin) önizlemesini DOM üzerinden kesin olarak doğrula. **Doğrulanmayan hiçbir konuşma geçilemez, başarılı sayılamaz ve bir sonraki müşteriye geçilmez.**
+7. Yorum yanıtı: yorumun altındaki "Yanıtla"ya tıkla, yaz, Enter. Gönderildiğini DOM üzerinden doğrula.
 8. **Meta'nın "otomatik özel mesaj" penceresi** çıkarsa her zaman **İptal**'e bas, Kaydet'e basma.
 9. Kendi yorum cevabını düzeltmek için: üzerine gel → "..." → Düzenle → ctrl+a → yeni metin → Return. (Gönderilmiş Messenger mesajı düzenlenemez.)
-10. Her gönderimden sonra ekran görüntüsüyle gönderildiğini doğrula.
+10. **Tur Sonu Doğrulama Raporu:** Toplu tur bittiğinde kullanıcıya her müşterinin onay doğrulaması durumunu (`Doğrulandı / Başarılı`) içeren kesin sonuç tablosu sunulur.
 
 ## Kurallar
 - Cevaplar Arapça (Mısır lehçesi), kişinin adıyla hitap (Arapça yazan için Arapça isim, Latin yazanın adı olduğu gibi).

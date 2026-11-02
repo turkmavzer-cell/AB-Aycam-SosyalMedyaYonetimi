@@ -19,7 +19,10 @@ Mesaj **"ekip:"** ile başlarsa veya iş birden çok uzmanlık gerektiriyorsa `t
 ### Ekip Kuralları:
 - Bu projenin kuralları Kedihane kurallarından önce gelir.
 - Alt ajanlar bu talimatı görmez. Tekir, her görev tanımına o işle ilgili proje kurallarını (WhatsApp linki, PDF yolu ve kuralı, hitap metni, Mısır lehçesi, kumaş rengi kuralı, onaylı promptlar) açıkça yazar.
-- Ajanlar öğrendiklerini kendi hafızalarına değil, `github-guncelleme\ogrenilenler.md`'ye yazdırır; Tekir bunları toplar.
+- **İş Kaydı ve Hafıza Ayrımı (Kedihane <-> AB Ayçam):**
+  1. Facebook/Messenger cevapları verildiğinde veya herhangi bir iş yapıldığında, Kedihane **ne iş yapıldığını (`ilerleme.md`, `bekleyen-isler.md`, `ogrenilenler.md`) ve müşteri cevap listelerini (`yerel-kayitlar/`) doğrudan bu repoya (`E:\ab ayçam\github-guncelleme` ve `AB-Aycam-SosyalMedyaYonetimi`) kaydeder.**
+  2. Kedihane **kendi içine AB Ayçam ile ilgili hiçbir kişisel veya kurumsal bilgi (marka adı, müşteri adı, telefon numarası, adres, hesap adı, yapılan özel iş özeti) almaz.**
+  3. Yalnızca genel olarak **global bir teknik iş veya yöntem** öğrenildiğinde, Kedihane bu bilgiyi kişisel ve kurumsal verilerden tamamen arındırarak kendi genel hafızasına/rehberlerine alabilir.
 - Kayıt klasörü kuralı ve "her işin sonunda" kuralı ekip için de geçerlidir. Ekip commit ve push yapmaz.
 
 ---

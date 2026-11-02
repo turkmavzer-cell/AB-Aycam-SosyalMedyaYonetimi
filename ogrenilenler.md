@@ -2,6 +2,21 @@
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
 
+## 2 Kasım 2026 — PDF Dosya Yolu Teyidi ve Tarayıcı MCP Yükleme Standardı
+- **Hata / Ders (PDF Yolu Teyidi):** Sosyal medya yanıtlarında veya tarayıcı otomasyonunda gönderilecek PDF dosyası hafızadan/tahminle (`tüm kalıplar.pdf` vb.) seçilemez; daima `PROJE_INSTRUCTIONS_GUNCEL.md` içindeki tek yetkili güncel dosya olan `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB) esas alınmalıdır.
+- **Teknik Ders (Chrome DevTools MCP upload_file Kısıtı):** Chrome DevTools MCP sunucusu güvenlik gereği yalnızca `os.tmpdir()` (`C:\Users\dell\AppData\Local\Temp\`) dizinini varsayılan geçerli kök kabul eder. E: sürücüsündeki dosyalar doğrudan yüklenemez; yükleme öncesinde dosya geçici olarak Temp dizinine kopyalanıp oradan `upload_file` edilmelidir.
+
+## 2 Kasım 2026 — Messenger Toplu Cevap Turu (Eksik PDF Düzeltmesi & Onay Doğrulaması Kapısı)
+- **Hata / Eksiklik:** Cumartesi günü yanıtlanan mesajlarda ("كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك...") metin iletilmesine rağmen müşterilere katalog PDF dosyası (`kartelas 1 - fiyatlı.pdf`) ek olarak yüklenmemişti; yalnızca wa.me bağlantı önizlemesi gitmişti.
+- **Düzeltme & Çözüm:** Kullanıcı onayıyla 8 müşterinin (`Khaled El Kady`, `Dada Dada`, `Gab Reyal`, `Mone Mone`, `Doaa Sami`, `محمد ابوراس`, `سيد ربيع`, `Macheal Abdo`) sohbetleri tek tek açılarak her birine `kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası yüklendi, progressbar ve Gönder butonu aktifliği beklenip native click ile iletildi. Her bir konuşmada dosya balonu ve sol listedeki önizleme doğrulanarak eksiklik %100 giderildi.
+- **Yeni Kural (İstisnasız İki Aşamalı Onay ve Tekil Doğrulama Kapısı):**
+  1. **Ön Onay Zorunluluğu:** Hiçbir müşteriye (Messenger veya yorum) doğrudan ve habersiz yanıt gönderilmez. Önce yöneticiye Türkçe onay tablosu sunulur; kullanıcı "onay / gönder" demeden gönderim başlamaz.
+  2. **Hiçbir İnsan Onay Doğrulaması Olmadan Geçilemez:** Her müşteriye mesaj/dosya iletildikten sonra:
+     - Sağ panel başlığının müşteriyle eşleştiği,
+     - Dosya yüklenmişse progressbar'ın bitip Gönder butonunun aktif siyah renge döndüğü,
+     - Gönderim sonrası mesaj balonunda dosya ve sol listede *"Bir dosya eki gönderdin."* önizlemesinin belirdiği DOM üzerinden tek tek doğrulanmadan **asla bir sonraki kişiye geçilemez ve işlem tamamlandı sayılamaz**.
+  3. **Tur Sonu Raporu:** Toplu cevap turlarında her müşterinin doğrulama durumu kullanıcıya eksiksiz raporlanır.
+
 ## 1 Kasım 2026 — Video 23 (17T Kurgu: Küçük PiP Yasağı, Tam-Sayı Crop Titremesi, DisplayMatrix ve Orijinal Bayrak Şablonu)
 - **Hata 1 (Küçük Görseller ve Taşların Belli Olmaması):** Videonun içine küçük Picture-in-Picture (`370x520` PiP) kutuları, dar dikey ekran bölmeleri (`split-screen`) ve 4'lü küçük ızgaralar konulduğunda kıyafet üzerindeki strass/taş işlemeleri 1 piksellik noktalara dönüşerek hiç belli olmadı. Ayrıca `1792x2400` (`3:4`) katalog görselleri doğrudan `1080x1920` (`9:16`) boyuta ölçeklenince mankenler dikeyde %33 sündürüldü.
   - **Kural:** Taş (strass) ve sim detaylı model görsellerinde **asla küçük PiP kutusu, dar ekran bölmesi veya 4'lü küçük ızgara kullanılmaz**. Görseller (`1792x2400`), **sıfır sündürme (`1:1` gerçek piksel oranı)** ile doğrudan giysi ve taş işlemelerine odaklanan `9:16` pencereden (`1170x2080` veya `1260x2240` → `1080x1920` Lanczos) **tam ekran** kadrajlanır ve kristal taş fasetlerini belirginleştirmek için `UnsharpMask` uygulanır.

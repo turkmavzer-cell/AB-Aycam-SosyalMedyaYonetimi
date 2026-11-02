@@ -19,7 +19,10 @@ Mesaj **"ekip:"** ile başlarsa veya iş birden çok uzmanlık gerektiriyorsa `t
 ### Ekip Kuralları:
 - Bu projenin kuralları Kedihane kurallarından önce gelir.
 - Alt ajanlar bu talimatı görmez. Tekir, her görev tanımına o işle ilgili proje kurallarını (WhatsApp linki, PDF yolu ve kuralı, hitap metni, Mısır lehçesi, kumaş rengi kuralı, onaylı promptlar) açıkça yazar.
-- Ajanlar öğrendiklerini kendi hafızalarına değil, `github-guncelleme\ogrenilenler.md`'ye yazdırır; Tekir bunları toplar.
+- **İş Kaydı ve Hafıza Ayrımı (Kedihane <-> AB Ayçam):**
+  1. Facebook/Messenger cevapları verildiğinde veya herhangi bir iş yapıldığında, Kedihane **ne iş yapıldığını (`ilerleme.md`, `bekleyen-isler.md`, `ogrenilenler.md`) ve müşteri cevap listelerini (`yerel-kayitlar/`) doğrudan bu repoya (`E:\ab ayçam\github-guncelleme` ve `AB-Aycam-SosyalMedyaYonetimi`) kaydeder.**
+  2. Kedihane **kendi içine AB Ayçam ile ilgili hiçbir kişisel veya kurumsal bilgi (marka adı, müşteri adı, telefon numarası, adres, hesap adı, yapılan özel iş özeti) almaz.**
+  3. Yalnızca genel olarak **global bir teknik iş veya yöntem** öğrenildiğinde, Kedihane bu bilgiyi kişisel ve kurumsal verilerden tamamen arındırarak kendi genel hafızasına/rehberlerine alabilir.
 - Kayıt klasörü kuralı ve "her işin sonunda" kuralı ekip için de geçerlidir. Ekip commit ve push yapmaz.
 
 ---
@@ -66,8 +69,9 @@ Yaptığın **HER** iş, güncelleme, yeni prompt, liste, rapor veya not — ba�
   **Standart Metin:**  
   `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
 - **PDF Kontrolü:** Her gönderimden önce PDF yolunu kontrol et (`E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf`). Klasör yolu veya dosya adı değişmişse/bulunamıyorsa göndermeyi durdur ve kullanıcıya MUTLAKA bildir; başka PDF gönderme.
+- **İstisnasız İki Aşamalı Onay ve Tekil Doğrulama Kapısı:** Hiçbir müşteriye (Messenger veya yorum) kullanıcıya önce Türkçe onay tablosu (`| Sıra | Müşteri Adı | Durum | Gönderilecek Metin | Eklenecek PDF |`) sunulup açık onay ("onayla", "gönder", "başla") alınmadan tek bir mesaj/cevap gönderilemez. Cevap verilen hiçbir insan onay doğrulaması olmadan geçilemez: Her gönderim sonrasında (1) sağ panel başlığının müşteriyle eşleştiği, (2) dosya eklenmişse progressbar'ın bitip Gönder butonunun siyah aktif (`rgb(0, 0, 0)`) olduğu, (3) gönderim sonrası mesaj balonunda PDF/metnin yer aldığı ve sol listede *"Bir dosya eki gönderdin"* önizlemesinin belirdiği DOM üzerinden tek tek doğrulanmadan **ASLA bir sonraki kişiye geçilemez ve işlem tamamlandı sayılamaz**.
 - **Gönderim Doğrulaması:** Her mesajda gönderilen `wa.me` linkinin eksiksiz olduğunu kontrol et; başarıyı sohbet listesinde *"Bir dosya eki gönderdin"* önizlemesiyle doğrula. "Önerilen yanıt" çubuğunu kullanma (yazılı numara içeriyor).
-- **Raporlama:** Toplu cevap turlarında sonunda kullanıcıya liste ver: kime cevap verildi, ne sormuş, ne yazıldı.
+- **Raporlama:** Toplu cevap turlarında sonunda kullanıcıya liste ver: kime cevap verildi, ne sormuş, ne yazıldı ve her kişinin doğrulama durumu (`Doğrulandı / Başarılı`).
 - **Güvenlik & Onay:** Şifre, doğrulama kodu girme. Mesaj gönderme, silme, reklam seti/otomasyon değişikliği ve ödemede önce onay al (kullanıcı toplu cevap turunu açıkça onayladıysa o tur kapsamında gönderilebilir).
 - **Ev Tekstili:** Ev tekstili görsellerinde kumaş rengi değişmez, onaylı sahne düzeni ve ölçüler repodaki `promptlar/` klasöründedir.
 
