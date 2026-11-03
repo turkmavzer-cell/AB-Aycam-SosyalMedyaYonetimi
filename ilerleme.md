@@ -1,3 +1,13 @@
+## 3 Kasım 2026 (08:15) — Messenger Yanıtları (2 Yeni Müşteri & kartelas 1 - fiyatlı.pdf)
+- **Yapılan İş:** Meta Business Suite / Messenger gelen kutusunda bekleyen 2 yeni müşteri (`Mohamed Saleh`, `احمد محمد`) iki aşamalı onay kapısından geçirilerek Mısır lehçesi isimli hitap ve `kartelas 1 - fiyatlı.pdf` (8,01 MiB) eki ile yanıtlandı.
+- **Doğrulama:** 2/2 konuşmada metin ve PDF gönderimi DOM üzerinden tek tek doğrulandı ("Bir dosya eki gönderdin." önizlemesi teyit edildi). Facebook gönderi yorumlarında bekleyen yorum bulunmadığı teyit edildi.
+- **Kayıt:** Detaylar `github-guncelleme\yerel-kayitlar\cevaplanan-musteriler-03-11-2026.md` dosyasına kaydedildi.
+
+## 2 Kasım 2026 (16:25) — Messenger 2. Tur Yanıtları (3 Yeni Müşteri & kartelas 1 - fiyatlı.pdf)
+- **Yapılan İş:** 15:47-15:57 saatlerinde gelen 3 yeni Messenger mesajı (`الشيخ عمر`, `Faduoa Faduoa`, `هاني السعيد`) iki aşamalı onay kapısından geçirilerek Mısır lehçesi isimli hitap ve `kartelas 1 - fiyatlı.pdf` (8,01 MiB) eki ile yanıtlandı.
+- **Şeyh Ömer Özel Yanıtı:** Fabrika ve mağaza sahibi olduğunu belirten müşteriye `PROJE_INSTRUCTIONS_GUNCEL.md` gereği fabrika açık adresi (`العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`) iletildi.
+- **Doğrulama:** 3/3 mesaj DOM üzerinden tek tek doğrulandı, sayaç 0'a indi. Detaylar `yerel-kayitlar\cevaplanan-musteriler-02-11-2026.md` dosyasına kaydedildi.
+
 ## 2 Kasım 2026 (Öğleden Sonra) — Video 23 Reels Yorumu ve 3 Messenger Yanıtı (kartelas 1 - fiyatlı.pdf)
 - **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook gönderi yorumları tarandı.
 - **Messenger Cevapları:** 3 müşteriye (`Hesham Mohamed Yassin`, `Karim Mohammed`, `جنة الخلد`) Mısır lehçesi isimli hitap ve `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası başarıyla iletildi.

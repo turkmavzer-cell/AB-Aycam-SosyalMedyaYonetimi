@@ -2,6 +2,13 @@
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
 
+## 3 Kasım 2026 — Mesaj/Yorum Raporlama ve Ön Onay Tablo Standardı (Gerçek Zamanlı İsim Hitabı)
+- **Kullanıcı Kararı / Yeni Standart:** Gelen yorum ve mesajlar raporlanırken (kullanıcı açıkça sormasa dahi veya gelen soru/yorumlar incelendiğinde) daima aşağıdaki 5 sütunlu tam tablo formatı kullanılmalıdır:
+  `| # | Mesajdan/Yorumdan Gelen Soru (Arapça) | Sorunun Türkçe Anlamı | Hazırlanan Cevap (Arapça) | Cevabın Türkçe Anlamı & Eklenti |`
+- **{ISIM} Yerine Gerçek Zamanlı Müşteri Adı Zorunluluğu:** Hazırlanan cevabın hem Arapça metninde (`أهلاً {ISIM} 👋...`) hem de Türkçe açıklamasında (`"Merhaba {ISIM} 👋..."`), `{ISIM}` şablon değişkeni yerine **mesajı atan veya yorumu yapan kişinin gerçek profil adı canlı olarak doldurulmalıdır**.
+- **Katalog Eki Belirteci:** Cevabın Türkçe sütununda eklenecek PDF (`📎 Ek: kartelas 1 - fiyatlı.pdf`) açıkça belirtilmelidir.
+- **Kullanıcı Onayı Bekleme:** Bu tablo sunulduktan sonra kullanıcı "cevapları verebilirsin / onayla / gönder" demeden tek bir mesaj dahi gönderilmez.
+
 ## 2 Kasım 2026 — PDF Dosya Yolu Teyidi ve Tarayıcı MCP Yükleme Standardı
 - **Hata / Ders (PDF Yolu Teyidi):** Sosyal medya yanıtlarında veya tarayıcı otomasyonunda gönderilecek PDF dosyası hafızadan/tahminle (`tüm kalıplar.pdf` vb.) seçilemez; daima `PROJE_INSTRUCTIONS_GUNCEL.md` içindeki tek yetkili güncel dosya olan `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` (8,01 MiB) esas alınmalıdır.
 - **Teknik Ders (Chrome DevTools MCP upload_file Kısıtı):** Chrome DevTools MCP sunucusu güvenlik gereği yalnızca `os.tmpdir()` (`C:\Users\dell\AppData\Local\Temp\`) dizinini varsayılan geçerli kök kabul eder. E: sürücüsündeki dosyalar doğrudan yüklenemez; yükleme öncesinde dosya geçici olarak Temp dizinine kopyalanıp oradan `upload_file` edilmelidir.

@@ -16,7 +16,12 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
    - Sayfa yüklenirken boş görünebilir, 5-8 sn bekle.
 2. Okunmamış sayıları ve "Okunmamış" filtresini kullan. Listeyi aşağı kaydırıp daha eski konuşmaları yükle. Son mesajın "Sen:" ile başlaması bizim cevap verdiğimiz anlamına gelir; müşterinin yazdığı son mesajlar cevap bekleyenlerdir.
 3. Yorumlarda her gönderiyi aç; altında "1 yanıtı gör" yazan yorumların cevabı var mı genişleterek doğrula (tıklama yeri yorum altındaki bu yazı). Sayfa adı üzerine gelince açılan profil kartını X ile kapat.
-4. **Listeyi Türkçe tablo olarak çıkar (İki Aşamalı Onay):** Kim yazmış, soru türü, yazılacak metin, eklenecek PDF (`kartelas 1 - fiyatlı.pdf`). Müşteri adı sadece sohbette onay için gösterilir, git reposuna yazılmaz.
+4. **Listeyi 5 Sütunlu Türkçe Tablo Olarak Çıkar (İki Aşamalı Onay & Gerçek Zamanlı İsim Hitabı):**
+   - Kullanıcı sormasa dahi veya gelen yorum/mesajlar incelendiğinde her zaman şu 5 sütunlu tam tablo formatında sunulur:
+     `| # | Mesajdan/Yorumdan Gelen Soru (Arapça) | Sorunun Türkçe Anlamı | Hazırlanan Cevap (Arapça) | Cevabın Türkçe Anlamı & Eklenti |`
+   - **Gerçek Zamanlı İsim Hitabı:** Hazırlanan cevabın hem Arapça metninde hem de Türkçe açıklamasında `{ISIM}` şablon değişkeni yerine doğrudan **mesajı atan veya yorumu yapan müşterinin gerçek profil adı** yazılır.
+   - **Katalog Eki Belirteci:** Türkçe sütununda `📎 Ek: kartelas 1 - fiyatlı.pdf` açıkça gösterilir.
+   - Müşteri adı sadece sohbette onay için gösterilir, git reposuna yazılmaz (`yerel-kayitlar/` altında tutulur).
 5. **Kullanıcı Onayı Olmadan Asla Başlama:** Kullanıcı açıkça *"onayla / gönder / başla"* demeden tek bir mesaj dahi gönderilmez.
 6. **Messenger gönderirken (Kişi Başına Tekil Doğrulama Kapısı):**
    - Konuşmayı aç ve sağ paneldeki başlık adının hedef müşteriyle birebir eşleştiğini doğrula.
