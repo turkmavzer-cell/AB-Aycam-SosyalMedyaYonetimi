@@ -1,3 +1,13 @@
+## 3 Kasım 2026 (09:20) — 42 Kartela Taş Dizimi Lingerie Manken Prompt Kataloğu (50mm Lens & Sıcak LUT)
+- **Yapılan İş:** `E:\ab ayçam\taşlı yapay zeka\makina 2\kartela\jpeg` yolundaki 42 adet taş dizim kartela görseli tek tek incelenerek her biri için özel lingerie katalog görsel prompt seti üretildi.
+- **Standartlar:**
+  - 20–25 yaş arası genç yetişkin mankenler.
+  - Dengeli lingerie estetiği (opak astar, görünür iç çamaşırı ve çıplaklık yok, zarif saten/ipek slip, babydoll ve camisole modelleri).
+  - 50mm f/1.8 lens optiği, kremsi arka plan bokeh ve sinematik sıcak renk LUT (kehribar, bal ve altın tonları).
+  - Aşırı cüretkar olmayan ama albenili ve zarif doğal pozlar ('eli saçta' klişesi engellendi).
+  - Kartela görselindeki orijinal taş motifi ve ölçeği birebir (1:1) kumaş kıvrımlarına sadık kalarak korundu.
+- **Çıktı:** `promptlar/42_kartela_lingerie_50mm_sicak_lut_promptlari.md` (107 KB, 42 adet bağımsız prompt).
+
 ## 3 Kasım 2026 (08:15) — Messenger Yanıtları (2 Yeni Müşteri & kartelas 1 - fiyatlı.pdf)
 - **Yapılan İş:** Meta Business Suite / Messenger gelen kutusunda bekleyen 2 yeni müşteri (`Mohamed Saleh`, `احمد محمد`) iki aşamalı onay kapısından geçirilerek Mısır lehçesi isimli hitap ve `kartelas 1 - fiyatlı.pdf` (8,01 MiB) eki ile yanıtlandı.
 - **Doğrulama:** 2/2 konuşmada metin ve PDF gönderimi DOM üzerinden tek tek doğrulandı ("Bir dosya eki gönderdin." önizlemesi teyit edildi). Facebook gönderi yorumlarında bekleyen yorum bulunmadığı teyit edildi.
