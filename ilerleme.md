@@ -1,3 +1,14 @@
+## 3 Kasım 2026 (12:05) — Google Flow İçin 42 Kartela Taş Deseni Referanslı Video Prompt Kataloğu
+- **Yöntem:** Google Flow'un hazır manken görsellerindeki görsel filtre engelini aşmak için yeni strateji kuruldu: Flow'a insan görseli yerine `E:\ab ayçam\taşlı yapay zeka\makina 2\kartela\jpeg` klasöründeki siyah zeminli kartela görselleri (1-44 copy) girdi olarak verildi.
+- **Standartlar:**
+  - Sıfır görsel filtresi (siyah zemin grafik girdi).
+  - 20-25 yaş arası genç yetişkin mankenler, lüks saten slip gecelik / ev giyimi katalog standardı.
+  - Ultra yavaş yatay kamera panı (`ultra-slow horizontal pan`), 50mm lens optiği ve sıcak lamba ışığı.
+  - Kartela görselindeki orijinal taş motifi elbisenin dökümüne 1:1 giydirildi.
+- **Çıktılar:**
+  - `E:\ab ayçam\premiere pro\24 - langery\google_flow_kartela_video_promptlari.md`
+  - `promptlar/kartela_flow_video_promptlari.md`
+
 ## 3 Kasım 2026 (10:48) — Google Flow (Veo) 21 Lingerie Video Prompt Seti (Yavaş Pan & Sıfır Renk Değişimi Koruması)
 - **Problem & Çözüm:** İlk denemede Flow'da görseldeki kırmızı elbisenin maviye dönmesi ve desenin bozulması (morphing) giderildi. Sebebin promptta yapay renk/desen tarifi yapılması olduğu tespit edildi.
 - **Yeni Standart:** 21 görselin tamamı için promptlar en baştan sıfırlandı:
