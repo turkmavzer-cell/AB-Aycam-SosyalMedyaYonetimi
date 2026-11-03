@@ -1,3 +1,11 @@
+## 3 Kasım 2026 (10:48) — Google Flow (Veo) 21 Lingerie Video Prompt Seti (Yavaş Pan & Sıfır Renk Değişimi Koruması)
+- **Problem & Çözüm:** İlk denemede Flow'da görseldeki kırmızı elbisenin maviye dönmesi ve desenin bozulması (morphing) giderildi. Sebebin promptta yapay renk/desen tarifi yapılması olduğu tespit edildi.
+- **Yeni Standart:** 21 görselin tamamı için promptlar en baştan sıfırlandı:
+  - Hiçbir yapay kumaş/renk dayatması yapılmadı; görseldeki elbise, kumaş rengi ve taş motifi %100 kilitlendi (`Maintain 100% strict visual consistency... Zero color shift, zero dress morphing, zero pattern distortion`).
+  - Kamera hareketi yalnızca **ultra yavaş yatay pan (slow horizontal pan / slider pan)** olarak optimize edildi.
+  - Model pozlaması aşırıya kaçmayan, doğal ve albenili mikromimiklere (sakin nefes alma, ağır baş çevirme, zarif tebessüm) bağlandı.
+- **Çıktılar:** `E:\ab ayçam\premiere pro\24 - langery\google_flow_video_olusturma_kilavuzu.md` ve `promptlar/24_langery_google_flow_video_promptlari.md`.
+
 ## 3 Kasım 2026 (09:20) — 42 Kartela Taş Dizimi Lingerie Manken Prompt Kataloğu (50mm Lens & Sıcak LUT)
 - **Yapılan İş:** `E:\ab ayçam\taşlı yapay zeka\makina 2\kartela\jpeg` yolundaki 42 adet taş dizim kartela görseli tek tek incelenerek her biri için özel lingerie katalog görsel prompt seti üretildi.
 - **Standartlar:**
