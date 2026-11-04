@@ -1,5 +1,14 @@
 # Meta mesaj ve yorum iş akışı
 
+## İstisnasız İki Aşamalı Onay ve Tekil Doğrulama Kapısı (02.11.2026, Kullanıcı Kararı)
+- **Ön Onay Şartı:** Hiçbir müşteriye (Messenger veya yorum) doğrudan cevap verilemez. Önce yöneticiye Türkçe onay tablosu (`| Sıra | Müşteri Adı | Durum | Gönderilecek Metin | Eklenecek PDF |`) sunulur. Kullanıcı açıkça onaylamadan ("onay / gönder / başla") tek bir mesaj bile tetiklenemez.
+- **Tekil Doğrulama Kapısı (Hiçbir İnsan Doğrulanmadan Geçilemez):**
+  1. Sağ paneldeki başlık adının hedef müşteriyle birebir eşleştiği teyit edilir.
+  2. Dosya eklenmişse (`kartelas 1 - fiyatlı.pdf`) progressbar kapanmadan ve Gönder butonu aktif siyah renge (`rgb(0, 0, 0)`) dönmeden tıklama yapılmaz.
+  3. Gönderim sonrası sağ panel mesaj balonunda PDF eki ve sol konuşma listesinde *"Bir dosya eki gönderdin."* önizlemesi DOM üzerinden kesin olarak doğrulanır.
+  4. **Doğrulanmayan hiçbir konuşma geçilemez, başarılı sayılamaz ve bir sonraki müşteriye geçilmez.**
+  5. Tur bitiminde tüm listenin onay doğrulaması durumu (`Doğrulandı / Başarılı`) kullanıcıya raporlanır.
+
 ## Mesaj cevap kuralı (Güncelleme: 24.10.2026, kullanıcı kararı)
 - Fiyat soran ve model/şekil isteyen herkese Messenger'da: kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir (24.10.2026'ya kadar `tüm kalıplar tek renk.pdf` kullanılıyordu, bu tarihte fiyatlı kartela PDF'ine geçildi).
 - Metin (Mısır lehçesi, her mesajda kişinin adı kullanılır): `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`

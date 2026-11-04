@@ -1,3 +1,9 @@
+## 4 Kasım 2026 (15:00) — Messenger Yanıtları (4 Yeni Müşteri & kartelas 1 - fiyatlı.pdf)
+- **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook yorumları tarandı. Yorumlarda cevapsız içerik olmadığı teyit edildi.
+- **Messenger Cevapları:** 4 müşteriye (الشيخ عمر, Amani Kamaleldin Ali Ibrahim, Hashem Hassan, محمد علام) iki aşamalı onay kapısından geçirilerek Mısır lehçesi isimli hitap ve güncel kartelas 1 - fiyatlı.pdf (8,01 MiB) eki başarıyla iletildi.
+- **Adres ve Konum Soruları:** Fabrika adresi ve iletişim isteyen müşterilere (Hashem Hassan ve محمد علام) Mısır Obour sanayi bölgesi fabrika açık adresi iletildi.
+- **Doğrulama:** 4/4 işlem kişi bazlı tekil doğrulama kapısıyla DOM üzerinden teyit edildi (PDF eki ve metin balonu gönderildi, sol panel önizlemeleri senkronize oldu). Messenger ve Yorum kuyruğu sıfırlandı (sayaç 0). Detaylar yerel-kayitlar\cevaplanan-musteriler-04-11-2026.md dosyasına kaydedildi.
+
 ## 3 Kasım 2026 (12:05) — Google Flow İçin 42 Kartela Taş Deseni Referanslı Video Prompt Kataloğu
 - **Yöntem:** Google Flow'un hazır manken görsellerindeki görsel filtre engelini aşmak için yeni strateji kuruldu: Flow'a insan görseli yerine `E:\ab ayçam\taşlı yapay zeka\makina 2\kartela\jpeg` klasöründeki siyah zeminli kartela görselleri (1-44 copy) girdi olarak verildi.
 - **Standartlar:**

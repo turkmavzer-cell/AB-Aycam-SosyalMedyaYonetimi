@@ -1,6 +1,6 @@
 # Bekleyen işler
 
-Son güncelleme: 29.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
+Son güncelleme: 04.11.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 
 ## Açık
 - **Video 22 (desenler) kurgusu ve şablonları (24.10):** `premiere pro\22 - desenler\video 22 - 1.mp4` (müzikli, ritmik geçişli, 4 ana vurgulu hazır kurgu) ve `video22_premiere_sekans.xml` + `yazi-ve-bitis-sablonlari\` üretildi; kullanıcı izleyip onaylayacak veya revizyon (saniye/klip/müzik) isterse `_calisma\build_video22.py` üzerinden güncellenecek.
@@ -24,6 +24,7 @@ Son güncelleme: 29.10.2026. Bitenler silinmez, "Bitti" bölümüne taşınır.
 - **Cevapsız bırakılan:** 1 konuşma (cevabımız vardı, sonra cevapsız arama) — yeni mesaj atarsa cevaplanacak.
 
 ## Bitti
+- 04.11 (15:00): 4 Messenger konuşmasına isimli Mısır lehçesi metin + güncel kartelas 1 - fiyatlı.pdf eki iletildi (4/4 doğrulandı: الشيخ عمر, Amani Kamaleldin Ali Ibrahim, Hashem Hassan, محمد علام); Facebook yorumlarında bekleyen yok (0); liste: yerel-kayitlar\cevaplanan-musteriler-04-11-2026.md.
 - 02.11 (Öğleden Sonra): 3 Messenger konuşmasına isimli Mısır lehçesi metin + güncel `kartelas 1 - fiyatlı.pdf` eki iletildi (`Hesham Mohamed Yassin`, `Karim Mohammed`, `جنة الخلد`); Video 23 Reels gönderisine Türk sateni soran `Hesham Mohamed Yassin`'in yorumuna resmi sayfa yanıtı verildi (4/4 doğrulandı); liste: `yerel-kayitlar\cevaplanan-musteriler-02-11-2026.md`.
 - 02.11: 8 müşteriye eksik kalan `kartelas 1 - fiyatlı.pdf` eki iletildi ve iki aşamalı onay kapısı kuralı işlendi.
 - 31.10: 7 Messenger konuşmasına isimli Mısır lehçesi metin + güncel `kartelas 1 - fiyatlı.pdf` eki iletildi (7/7 doğrulandı: Mohammad Shaaban, Ahmed Maher, Moustafa El Morsy, El Fayrouz Hassan Sarhan, Om Fares - açık fabrika adresiyle, Marwa Mahdi, Mervet Ramdan M); liste: `yerel-kayitlar\cevaplanan-musteriler-31-10-2026.md`.
