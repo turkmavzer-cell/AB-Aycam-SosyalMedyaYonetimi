@@ -1,3 +1,22 @@
+## 5 Kasım 2026 (11:25) — Messenger Yanıtları (11 Yeni Müşteri & kartelas 1 - fiyatlı.pdf) ve Facebook Yorumları Kontrolü
+- **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook gönderi yorumları tarandı. Kullanıcıya 5 sütunlu ön onay tablosu sunuldu; kullanıcının açık onayı alındıktan sonra gönderim turu icra edildi.
+- **Messenger Cevapları:** 11 müşteriye (ابانوب جرجس, Eid Elnagar, Haidy Robell, بسمه امل, Abdo Rabee, Řé Møø, Samy Fransis, Ahmed Khatap, كرم ابو المجد, Yaser Sory, محمد حمامه) Mısır lehçesi isimli hitap ve güncel `kartelas 1 - fiyatlı.pdf` (8,01 MiB) dosyası başarıyla iletildi.
+- **Randevu / Açık Adres Talebi:** Ziyaret ve randevu isteyen müşteriye (Eid Elnagar) fabrika açık adresi (Obour sanayi bölgesi) iletildi.
+- **Doğrulama Kapısı:** 11/11 konuşma tek tek DOM üzerinden teyit edildi (kullanıcı başlığı kontrolü + dosya yükleme teyidi + sağ panel mesaj balonu + sol menü "Bir dosya eki gönderdin." önizlemesi). Gelen kutusu ve yorum kuyruğu tamamen sıfırlandı (sayaç 0).
+- **Kayıt:** Detaylı müşteri dökümü ve teyit makbuzları `yerel-kayitlar\cevaplanan-musteriler-05-11-2026.md` dosyasına kaydedildi.
+
+## 4 Kasım 2026 (16:15) — Atıl/Depo Kumaşlarını Canlandırma Reklam Metinleri ve Nanobanana Promptları
+- **Konu ve Hedef:** Mısır pazarındaki konfeksiyon atölyeleri ve kumaş tüccarlarının depolarında kalan, satılamayan "ölü stok" kumaşları AB Ayçam'ın metrajlı kristal strass taş ve sim baskısıyla yüksek kârlı lüks ürünlere dönüştürme vaadi.
+- **ElevenLabs Seslendirme Metinleri:** 
+  - Seçenek 1: 30-35 saniyelik dinamik Reels/TikTok formatı (doğal Mısır iş lehçesi + Türkçe tercüme + duraklama/vurgu işaretleri).
+  - Seçenek 2: 50-60 saniyelik empatik, sermaye/nakit akışı odaklı Facebook reklam formatı.
+  - Seçenek 3: Doğrudan Türkçe alternatif seslendirme metni.
+- **Gemini Nano Banana Görsel Promptları:**
+  - Prompt 1: Loş ve otantik tekstil deposunda üst üste yığılmış atıl kumaş topları ve dramatik güneş huzmeleri ("The Forgotten Deadstock Warehouse").
+  - Prompt 2: Kesim masasında yarısı mat/tozlu, diğer yarısı ışıltılı kristal strass taş ve sim desenli dönüşüm kontrastı ("The Metamorphosis Cutting Table").
+  - Prompt 3: Tozlu paletten süzülen gece mavisi taş baskılı kumaşın ışıltılı uyanışı ("From Warehouse Dust to Golden Sparkle").
+- **Kayıt Dosyaları:** `promptlar\depoda_kalan_kumaslar_reklam_metni_ve_nanobanana_promptlari.md`.
+
 ## 4 Kasım 2026 (15:00) — Messenger Yanıtları (4 Yeni Müşteri & kartelas 1 - fiyatlı.pdf)
 - **Yapılan İş:** Meta Business Suite / Messenger gelen kutusu ve Facebook yorumları tarandı. Yorumlarda cevapsız içerik olmadığı teyit edildi.
 - **Messenger Cevapları:** 4 müşteriye (الشيخ عمر, Amani Kamaleldin Ali Ibrahim, Hashem Hassan, محمد علام) iki aşamalı onay kapısından geçirilerek Mısır lehçesi isimli hitap ve güncel kartelas 1 - fiyatlı.pdf (8,01 MiB) eki başarıyla iletildi.
