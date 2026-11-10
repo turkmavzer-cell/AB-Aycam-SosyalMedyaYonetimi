@@ -1,6 +1,53 @@
+## 10 Kasım 2026 — Premiere Pro Şablonlarında Link Yerine Açık WhatsApp Numarası & Şirket Adresi Zorunluluğu ve Gizlilik Sınırı Ayrımı
+- **Hata / Karışıklık:** Premiere Pro video şablonlarında (`antigravity 8` v1 ve `27 - şal` v1) WhatsApp numarası yerine `https://wa.me/201066830373` linki yazılmış ve bazı bitiş kartlarına şirket adresi eklenmemişti; ayrıca `kedihane` reposundaki telefon/adres gizliliği AB Ayçam reposuna da uygulanıyormuş gibi karışıklık doğmuştu.
+- **Kesin Kural (10.11.2026):**
+  1. **Premiere Pro & Video Şablonlarında Açık Numara + Adres:** Bundan sonra oluşturulacak tüm Premiere Pro şablonlarında (PNG, MOV/MP4, bitiş/CTA kartları ve XML) WhatsApp **kesinlikle `wa.me` linki olarak yazılmaz**; yerine WhatsApp ikonuyla doğrudan okunur **`01066830373`** numarası yazılır ve **şirket fabrika adresi mutlaka eklenir** (`مصنع إيه بي أيشام — العبور – القليوبية – المنطقة الصناعية بي آند سي – قطعة 7 – بلوك 27003 – الدور الثالث`). Videoda *"الأسعار عبر واتساب فقط"* yerine PDF katalog/fiyat çağrısı veya ücretsiz numune daveti kullanılır.
+  2. **Kanal Ayrımı:** `https://wa.me/201066830373` linki yalnızca tıklanabilir Messenger/Facebook yazılı metin ve yorum yanıtlarında kullanılır.
+  3. **Repo Gizlilik Sınırı:** Telefon numarası ve şirket adresi yasağı **yalnızca `kedihane` reposu içindir**. AB Ayçam reposunda şirket telefon numarası ve adresinin yazılmasında **hiçbir kısıtlama yoktur** (yalnızca bireysel müşteri adları ve mesaj içerikleri `yerel-kayitlar/` içinde saklanır).
+
+## 10 Kasım 2026 — Fiyatlı Kartela PDF'i (`kartelas 1 - fiyatlı.pdf`) İçerik Doğrulaması ve Cevap Şablonu Güncellemesi
+- **Bulgular / Ders:** `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` içeriği incelendiğinde 39 sayfanın tamamında hem desen adlarının hem de metraj fiyatlarının (`38 EGP`–`75 EGP`) yer aldığı doğrulandı. Eski `tüm kalıplar tek renk.pdf` döneminden kalan *"fiyat sadece WhatsApp'ta verilir"* (`الأسعار بنشاركها على واتساب بس`) cümlesi PDF içeriğiyle çelişmekteydi.
+- **Yeni Kural:** Messenger yanıtlarında `kartelas 1 - fiyatlı.pdf` gönderilirken *"fiyat sadece WhatsApp'ta verilir"* ibaresi **kesinlikle kaldırılır**; bunun yerine **hem modellerin hem fiyatların ekteki PDF'te bulunduğu** (`وكل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎`) yazılır, detay/sipariş/randevu için `https://wa.me/201066830373` linkine yönlendirilir.
+
+## 10 Kasım 2026 — Meta Business Suite'te "Sen: Merhaba ..." Otomatik Karşılama Önizlemesi Tuzağı
+- **Hata / Tuzak:** Sol sohbet listesinde son önizlemesi `"Sen: Merhaba ..."` (veya `"Sen: أهلاً بيك في AB إسطنبول"`) ile başlayan bazı konuşmalarda, müşterinin reklam üzerinden gönderdiği soruların hemen ardından Meta'nın otomatik karşılama mesajı tetiklenebilmektedir. Yalnızca `"Sen:"` önekine bakılarak bu konuşmalar cevaplanmış sanıldığında gerçek cevapsız müşteri soruları gözden kaçmaktadır.
+- **Kural & Doğrulama:** Taramada son önizlemesi `"Sen: Merhaba"` veya otomatik karşılama metniyle başlayan tüm konuşmalar cevapsız aday olarak açılıp doğrulanır. Ayrıca Lexical düzenleyiciye `ClipboardEvent("paste")` + `type_text` birlikte uygulanmaz (metni çift yazar), yalnızca `type_text` kullanılır; PDF yükleme kontrolünde üst banner'daki ilgisiz `progressbar` yerine `[role="listitem"] [role="progressbar"]` ve `[aria-busy="true"]` yokluğu ile son `Gönder` butonunun siyah (`rgb(0, 0, 0)`) aktif olması doğrulanır.
+
+## 9 Kasım 2026 — Premiere Şablonlarında Çok Dilli Karmaşa Yasağı ve %100 Arapça Standardı
+- **Kural & Karar:** Mısır pazarında yerel tekstil atölyeleri, konfeksiyon fabrikaları ve son tüketicilere hitap eden sosyal medya videolarında Türkçe veya İngilizce ara başlıklar dikkat dağıtmakta ve yabancı algısı oluşturmaktadır. Antigravity şablonlarında artık Türkçe/İngilizce çift dillilik yerine **%100 saf Mısır ticari Arapçası** uygulanır; Latin harfleri yalnızca gerekli https://wa.me/201066830373 linki ve dosya adlarında tutulur.
+
+## 9 Kasım 2026 — Premiere Pro Antigravity 8: Kumaş Alanını Korumak İçin Alandan Tasarruf Eden Minimalist Cam Mimari ve Taş Baskı İzolasyonu
+- **Bulgu & Analiz:** Video içinde kumaşın dökümünü, modelin duruşunu ve özellikle taşların ışıltısını gösterirken geniş/büyük arka planlı kartların ekranın %40-50'sini kapattığı ve videonun merkezindeki ürünü gölgelediği tespit edildi. Ayrıca sim ve taş baskının farklı operasyonlar olması nedeniyle şablonlarda sim unsurlarının bulunmaması talep edildi.
+- **Kural & Çözüm:**
+  1. **Minimalist Alan Tasarrufu (%85+ Açık Alan):** Şablonlar sadece üstte yüzen ince kapsül (Y: 220-350, Yükseklik ~120px) ve altta Reels güvenli alanının hemen üstündeki alt üçte bir (lower-third Y: 1420-1620) bölgelerine yerleştirilir. Merkez kumaş bölgesi (Y: 380-1400) %100 açık bırakılır.
+  2. **Yalnızca Taş Baskı İzolasyonu:** Şablon metinlerinde kesinlikle sim/glitter ifadeleri yer almaz; yalnızca kristal strass taş baskı, metraj rulo kumaşa baskı, 3.20m geniş en kapasitesi, yıkama/dökülmeme garantisi ve ücretsiz numune vurgulanır.
+  3. **Çift Formatlı Hareketli Grafik (ProRes 4444 MOV + MP4):** Premiere Pro'da sıfır ayarla doğrudan şeffaf oynatım için 10-bit alfa kanallı ProRes 4444 (.mov) standartlaştırıldı; hafif önizlemeler için de (.mp4) eşlik etti.
+
+## 9 Kasım 2026 — Taşlı Şal Kadın Model Üretiminde Gerçek Çıktı Standardı
+- **Bulgu & Analiz:** İndirilenler klasöründeki başarılı Gemini çıktılarında (11 görsel), modellerin elinde porselen fincan/nane çayı bardağı tutması, mermer kafe masaları ve nötr fonlar (fildişi/bej trençkot ve bluzlar) ile koyu renk mat kumaş (gece mavisi, bordo, zümrüt, espresso, füme) zıtlığının taş netliğini telefon ekranında katbekat artırdığı teyit edildi.
+- **Kural:** 42 modelin tamamı için 21 başa sarılan ve 21 omuza alınan dengesi korunarak, her bir modelin mekan, yaş (21-28), ten/saç ve kıyafet detayları tekil olarak kurgulandı (promptlar/42_tasli_sal_kadin_manken_ozel_promptlari.md).
+
 # Öğrenilenler ve hatalardan çıkan dersler
 
 Her işte yapılan hata, sebebi ve bundan sonraki kural burada tutulur. En yeni üstte.
+
+## 8 Kasım 2026 — Taş Baskı Şal/Tarha Promptlarında "Bordür Uydurma" ve "Kısmi Kapsama" Hatası
+- **Hata:** Şal (tarha) promptunda (`Model 4 - 2.jpg`) model görsel üretirken desende olmayan harici çiçek/çerçeve süslemeleri uydurmuş ve taş desenini şalın tamamına değil yalnızca göğüs kenarına uygulamıştı.
+- **Sebep:** Prompt metninde `stone-embellished border flowing across her chest` ifadesinin kullanılması, yapay zekanın (Midjourney/Flux/Gemini) deseni sadece bordüre hapsetmesine ve referansta olmayan bordür motifleri halüsinasyon etmesine yol açtı.
+- **Kural (Taş Baskı Şal Prompt Standartı):**
+  1. **Kesintisiz Tam Kapsama (`100% All-Over Seamless Coverage`):** Promptta mutlaka `The pattern must cover the ENTIRE surface area of the shawl from edge to edge continuously, including the headwrap, all folded layers, the draped ends, and the back. Zero unadorned blank sections, zero plain fabric patches.` kuralı yazılmalıdır.
+  2. **Bordür Yasağı ve Sıfır Halüsinasyon (`Strict Motif Adherence`):** Referans kartelada açıkça bir bordür yoksa asla `border` veya `trim` kelimesi kullanılmaz; `STRICT MOTIF ADHERENCE: Replicate ONLY the motifs visible in the reference. Do NOT invent, hallucinate, or add any borders, frames, lace, floral trims, or extra shapes that are not in the reference.` kuralı kilitlenir.
+
+## 7 Kasım 2026 — Meta Business Suite PDF Yükleme Süresi ve Asenkron Gönder Tuzağı
+- **Hata:** Messenger yanıtlarında metin gittikten sonra PDF ekleme aracına dosya verildiğinde, 8.01 MiB'lık dosyanın Meta sunucularına yüklenmesi (progressbar) yaklaşık 4-6 saniye sürmesine rağmen Gönder butonuna hemen tıklanmıştı. Gönder butonu dosya tamamen hazır olmadan devre dışı (disabled) kaldığı için tıklama işlemi başarısız olmuş ve müşterilere yalnızca metin iletilmişti. Ayrıca sol listedeki "Sen: أهلاً..." önizlemesi mesajın gittiğini gösterdiği için yanıltıcı şekilde işlem başarılı sanılmıştı.
+- **Sebep:** Meta Business Suite mesaj kutusunda büyük boyutlu PDF eklendiğinde `div[role="progressbar"]` elementinin yok olması ve Gönder butonunun `disabled` halden çıkıp tıklanabilir siyah renge dönmesi beklenmeden gönderim tetiklenmesi.
+- **Kural (İstisnasız Yeni Doğrulama Standartı):**
+  1. PDF yüklendikten sonra mutlaka `progressbar` elementinin kaybolduğu ve Gönder butonunun `aria-disabled="false"` olduğu DOM üzerinden beklenmelidir.
+  2. Gönder butonuna tıklandıktan sonra sol listedeki metin önizlemesiyle **asla yetinilmez**; sağ paneldeki mesaj balonlarında `Dosya Ekini Aç, kartelas 1 - fiyatlı.pdf, 8,01 MiB` elementi açıkça belirmeden bir sonraki müşteriye geçilmez.
+
+## 7 Kasım 2026 — Otomatik Kedihane Yönetimi ve Çift Repo Oturum Başlangıcı
+- **Kullanıcı Kararı / Yeni Standart:** Bu projede açılan her yeni sohbette kullanıcının her defasında çalışma şeklini anlatmasına veya `"ekip:"` yazmasına gerek yoktur. Her yeni sohbet otomatik olarak `kedihane` (`c:\Users\dell\.gemini\antigravity\scratch\kedihane`) yönetiminde (Tekir şefliğinde) başlar ve `AB-Aycam-SosyalMedyaYonetimi` (`E:\ab ayçam\AB-Aycam-SosyalMedyaYonetimi` & `E:\ab ayçam\github-guncelleme`) reposunu yönetir.
+- **Kalıcı Mekanizma:** `Kedihane+AB_Ayçam_Sosyalmedya` proje yapılandırmasına her iki git klasörü bağlandı; `session-start.ps1` kancası, `.agents/learnings/PROJECT.md`, `AGENTS.md`, `GEMINI.md` ve `PROJE_INSTRUCTIONS_GUNCEL.md` dosyaları bu kuralı her oturum başında otomatik uygulayacak şekilde eşitlendi.
 
 ## 3 Kasım 2026 — Mesaj/Yorum Raporlama ve Ön Onay Tablo Standardı (Gerçek Zamanlı İsim Hitabı)
 - **Kullanıcı Kararı / Yeni Standart:** Gelen yorum ve mesajlar raporlanırken (kullanıcı açıkça sormasa dahi veya gelen soru/yorumlar incelendiğinde) daima aşağıdaki 5 sütunlu tam tablo formatı kullanılmalıdır:

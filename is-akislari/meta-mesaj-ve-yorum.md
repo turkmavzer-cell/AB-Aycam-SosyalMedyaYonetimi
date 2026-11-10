@@ -9,13 +9,17 @@
   4. **Doğrulanmayan hiçbir konuşma geçilemez, başarılı sayılamaz ve bir sonraki müşteriye geçilmez.**
   5. Tur bitiminde tüm listenin onay doğrulaması durumu (`Doğrulandı / Başarılı`) kullanıcıya raporlanır.
 
-## Mesaj cevap kuralı (Güncelleme: 24.10.2026, kullanıcı kararı)
+## Mesaj cevap kuralı (Güncelleme: 10.11.2026, kullanıcı kararı)
 - Fiyat soran ve model/şekil isteyen herkese Messenger'da: kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir (24.10.2026'ya kadar `tüm kalıplar tek renk.pdf` kullanılıyordu, bu tarihte fiyatlı kartela PDF'ine geçildi).
-- Metin (Mısır lehçesi, her mesajda kişinin adı kullanılır): `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
-- Fiyat mesajda yazılmaz, detaylar ve sipariş için WhatsApp'a yönlendirilir.
+- Metin (Mısır lehçesi, her mesajda kişinin adı kullanılır): `أهلاً {isim} 👋 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373`
+- **Önemli Güncelleme (10.11.2026):** `kartelas 1 - fiyatlı.pdf` içinde 39 modelin adları ve EGP fiyatları (`38 EGP`–`75 EGP`) yer aldığı için artık mesajlarda *"fiyat sadece WhatsApp'ta verilir"* ibaresi kullanılmaz; fiyat ve modellerin PDF'te olduğu belirtilir, detay ve sipariş için WhatsApp'a yönlendirilir.
 - Her gönderimden önce PDF yolu kontrol edilir (`E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf`). Dosya yoksa ya da adı değiştiyse gönderim durdurulur, kullanıcıya bildirilir; başka dosya gönderilmez.
 - Her mesajda gönderilen linkin sonunda eksik hane olmadığı kontrol edilir (17.10'da bir mesajda son hane eksik çıktı, düzeltme mesajı gönderildi).
-- Eski kural (model/fiyat sadece WhatsApp) güncellendi: model bilgisi PDF ile verilebilir, fiyat hâlâ sadece WhatsApp.
+- Eski kural (model/fiyat sadece WhatsApp) tamamen güncellendi: Messenger'da hem modeller hem fiyatlar `kartelas 1 - fiyatlı.pdf` ile paylaşılır; WhatsApp detay, sipariş ve randevu içindir.
+- **Ücretsiz Numune Şartı Kalıbı (Messenger PDF Ekli):** `أهلاً بحضرتك يا {isim} 👋 مفيش أي شروط خالص! حضرتك تشرفنا في مصنعنا بمدينة العبور بقماشك ونعمل لحضرتك عينة مجانية وتشوف جودة الطباعة بنفسك. وكل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد على حضرتك فوراً: https://wa.me/201066830373`
+- **Fabrika Dışından Kumaş Kabulü Kalıbı (Messenger PDF Ekli):** `أهلاً {isim} 👋 أيوة طبعاً بنستلم القماش من عند حضرتك وبنطبعه بأعلى جودة تركي فصوص واستراس 💎 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373`
+- **Facebook Yorum Yanıtı (PDF eklenemediği için):** `أهلاً {isim} 👋 ابعتلنا رسالة على الصفحة أو كلمنا على واتساب عشان نبعتلك ملف الموديلات والأسعار (PDF) فوراً: https://wa.me/201066830373`
+- **Gizlilik Ayrımı:** Şirket telefon numarası (`01066830373`) ve açık adres (`العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`) yasağı yalnızca `kedihane` reposu içindir; AB Ayçam reposunda kısıt yoktur.
 
 - Yöntem (18.10 turunda işledi): metni yaz+Enter, ardından ataç ikonu → dosya yükle, yükleme bitince (Gönder yazısı siyah) Gönder; başarı ölçütü listede "Bir dosya eki gönderdin" önizlemesi. Adres soran kişiye herkese açık adres yazılabilir. Cevapsız arama bildirimi olup önceden soru sormuş kişiye de standart metin+PDF gider.
 
@@ -35,4 +39,6 @@
 
 ## Notlar
 - Meta "Önerilen yanıt" çubuğu yazılı telefon numarası içerir, kullanılmaz. Kutuya girerse temizlenir.
+- Sol sohbet listesinde `"Sen: Merhaba ..."` veya `"Sen: أهلاً بيك في AB إسطنبول"` önizlemesi Meta otomatik karşılama mesajıdır; gerçek insan yanıtı sayılmaz. Tarama sırasında bu konuşmalar cevapsız aday olarak açılıp kontrol edilmelidir.
+- Yükleme kontrolünde üst banner'daki ilgisiz `progressbar` yerine `[role="listitem"] [role="progressbar"]` ve `[aria-busy="true"]` yokluğu kontrol edilir; metin girişinde yalnızca `type_text` kullanılır (`paste` + `type_text` birlikte uygulanmaz).
 - Hesaplar Merkezi ve portföy işlemleri eski telefon numarasına doğrulama kodu istiyor; Instagram bağlama (ab_aycam) bu yüzden beklemede. Ayrıntı: ilerleme.md 17 Ekim.

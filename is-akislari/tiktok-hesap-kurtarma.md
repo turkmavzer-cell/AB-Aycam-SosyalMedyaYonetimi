@@ -29,4 +29,4 @@ Beklemede. Kullanıcı: "TikTok konusuna dönünce tekrar konuşuruz."
 - Claude giriş yapılmış Chrome'da yorum ve mesajları okur, Türkçe tablo çıkarır, onay sonrası Arapça cevap yazar.
 - TikTok yorum ve mesajlarında link tıklanabilir değildir. Cevapta "WhatsApp numaramız profil biyografisinde" denir; numara biyografiye konur (Arapça metinde numarayı yazı olarak yazmak ters görünüyor). İşletme hesabına geçilirse WhatsApp/web linki profile eklenebilir.
 - TikTok spam sistemi çok hızlı yazılan yorum/mesajları kısıtlayabilir; cevaplar tek tek ve yavaş yazılır.
-- Çalışma düzeni Facebook'takiyle aynı: tablo, onay, gönderim. Fiyat/model bilgisi sadece WhatsApp'tan.
+- Çalışma düzeni Facebook'takiyle aynı: tablo, onay, gönderim. `kartelas 1 - fiyatlı.pdf` (39 model + EGP fiyatları) WhatsApp üzerinden iletilir; TikTok yorum/mesajlarında link tıklanamadığı için *"fiyat sadece WhatsApp'ta"* yazılmaz, PDF katalog ve fiyatları istemek üzere profil biyografisindeki WhatsApp numarasına (`01066830373`) yönlendirilir.

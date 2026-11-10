@@ -2,7 +2,7 @@
 
 Son güncelleme: 13 Ekim 2026. Bu dosya projedeki tüm sohbetlerin birleşik özetidir (video üretim, taşlı yapay zeka görselleri, Premiere/kurgu, Meta mesaj/yorum yönetimi, ev tekstili ürün görselleri, TikTok, GitHub kayıt sistemi). Eski sürümlerin (`AB_Aycam_Proje_Context.md`, `AB_Aycam_Is_Akisi_Raporu.md`, 8 Ekim tarihli TAM) yerine bu dosyayı kullan.
 
-> Not: Eski sohbetlerin bazı kısımları yalnızca son mesajlar üzerinden görülebildi. Emin olunmayan yerler "(doğrulanmadı)" ile işaretli.
+> Not: Telefon numarası (`01066830373` / `+20 106 683 0373`) ve fabrika adresi (`العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`) yasağı **yalnızca `kedihane` reposu içindir**; AB Ayçam reposunda şirket numarası ve adresinin yazılmasında kısıtlama yoktur (yalnızca bireysel müşteri adları ve mesaj içerikleri `.gitignore` altındaki `yerel-kayitlar/` klasöründe tutulur). Eski sürümlerin (`AB_Aycam_Proje_Context.md`, `AB_Aycam_Proje_Context_TAM.md` 8 Ekim) yerine bu dosyayı kullan.
 
 Bu repo bir sohbete başlarken ilk okunacak yerdir. Okuma sırası: `README.md` → bu dosya → `ilerleme.md` → `bekleyen-isler.md` → ilgili `is-akislari/*.md` → gerekirse `promptlar/*.md`.
 
@@ -31,7 +31,7 @@ Bu repo bir sohbete başlarken ilk okunacak yerdir. Okuma sırası: `README.md` 
 8. Şifre, doğrulama kodu girme; ödeme/kredi harcayan işlemlerde önce onay al; indirme için onay iste. Gönderme, silme, reklam seti ve otomasyon değişikliği sadece onayla.
 9. Yapabildiğini ve sınırını dürüstçe söyle (ör. video izleyemem, ses dinleyemem; Premiere'de elle çizim kalitesi yok vb.).
 10. Mısır pazarı için sıcak iklim: kış parçaları, kar, yün palto gibi sahne/kıyafet kullanma (taşlı giydirme promptlarında). Ev tekstili kar setinde ürünün kendisi kar desenidir, sahne ise sıcak/ev içi kalır.
-11. **Fiyat ve model çeşitliliği bilgisi sadece WhatsApp'tan verilir.** Müşteriye WhatsApp'a yönlendirirken wa.me linki mutlaka konur; telefon numarası yazı olarak yazılmaz (Arapça metinde ters görünür).
+11. **Fiyat ve model bilgisi:** Messenger'da `kartelas 1 - fiyatlı.pdf` dosyası fiyat ve modelleri birlikte içerir; cevapta *"fiyat sadece WhatsApp'ta verilir"* yazılmaz, fiyat ve modellerin PDF'te olduğu belirtilir ve detay/sipariş için WhatsApp'a yönlendirilir. Müşteriye WhatsApp'a yönlendirirken wa.me linki mutlaka konur; telefon numarası yazı olarak yazılmaz (Arapça metinde ters görünür).
 12. **GitHub kayıt kuralı:** Yapılan her işin sonunda bu repodaki ilgili md dosyası ve `ilerleme.md` güncellenir. Kullanıcının "oldu / onay" dediği promptlar kelimesi kelimesine `promptlar/` klasörüne yazılır. Repoya şifre, token, müşteri adı ve mesaj içeriği yazılmaz. Repo özel (private) olmalıdır.
 
 ---
@@ -123,7 +123,7 @@ Ayrıntı ve adım adım yöntem: `is-akislari/ev-tekstili-urun-gorselleri.md`. 
 ## 5. Video işleri
 
 ### 5.1 Kullanılan teknikler
-- **Premiere Pro:** `premiere pro\*` klasörlerinde birçok proje. Claude, bilgisayar kontrolüyle Premiere'i kullanabiliyor; XML aktarımında logo/yazı konumu ve font bozulabiliyor.
+- **Premiere Pro:** `premiere pro\*` klasörlerinde birçok proje. Claude, bilgisayar kontrolüyle Premiere'i kullanabiliyor; XML aktarımında logo/yazı konumu ve font bozulabiliyor. **10.11.2026 Zorunlu Şablon Kuralı:** Premiere Pro için oluşturulacak tüm şablonlarda (PNG, ProRes 4444 MOV/MP4, bitiş/CTA kartları) WhatsApp **kesinlikle `wa.me` linki olarak konulmaz**; yerine WhatsApp ikonuyla açık numara (`01066830373`) ve şirket adresi (`العبور – القليوبية – المنطقة الصناعية بي آند سي – قطعة 7 – بلوك 27003 – الدور الثالث`) mutlaka eklenir; *"الأسعار عبر واتساب فقط"* yerine PDF katalog/fiyat çağrısı veya ücretsiz numune daveti kullanılır.
 - **Kodla video üretimi (Python + PIL + numpy + opencv + ffmpeg):** 6 yeni video bu yöntemle yapıldı. Kod: `premiere pro\15\_kurgu_kodu\`.
 - Claude videoyu izleyemez/sesi dinleyemez; kare çıkararak inceler ve ses seviyesi/sessizliği ölçer.
 
@@ -165,7 +165,7 @@ Uygun değil: Kooty, Mekassarat, Players, Gamila, Hena Masr (konuşmayı bastır
 
 Ayrıntı: `is-akislari/meta-mesaj-ve-yorum-cevaplama.md` ve `is-akislari/tiktok-hesap-kurtarma.md`.
 
-- **Gelen mesaj ve yorum yönetimi:** Meta Business Suite gelen kutusundan (Messenger + Facebook yorumları). Cevaplar Arapça (Mısır lehçesi), kişinin adıyla, sadece wa.me linkiyle; fiyat ve model bilgisi sadece WhatsApp'tan verilir. Yorumlarda otomatik özel mesaj numarayı zaten gönderiyorsa tekrar cevap yazılmaz. Önce Türkçe tablo (kim, ne yazmış, cevap), onay, sonra gönderim.
+- **Gelen mesaj ve yorum yönetimi:** Meta Business Suite gelen kutusundan (Messenger + Facebook yorumları). Cevaplar Arapça (Mısır lehçesi), kişinin adıyla, sadece wa.me linkiyle; Messenger'da fiyat ve modeller `kartelas 1 - fiyatlı.pdf` ile paylaşılır (PDF'te fiyatlar yazılıdır, *"sadece WhatsApp'ta"* ibaresi kullanılmaz), yorumlarda ve sipariş/detaylarda WhatsApp'a yönlendirilir. Yorumlarda otomatik özel mesaj numarayı zaten gönderiyorsa tekrar cevap yazılmaz. Önce Türkçe tablo (kim, ne yazmış, cevap), onay, sonra gönderim.
 - **Hazırlananlar:** sayfa açıklaması, kapak görseli metni, duyuru gönderisi, WhatsApp otomatik yanıtı, Arapça yorum yanıt şablonu.
 - **Facebook sayfa adı değişikliği (çözülmedi):** hedef "AB Ayçam Metraj Taş Baskı"; doğrulama kodu erişilemeyen eski telefona gidiyor. Claude şifre/kod girmez.
 - **TikTok:** Şirket hesabı @toqa7808, eski çalışan giriş bilgisini bırakmadı. Kurtarma sırası: şirket numarasıyla ve kullanıcı adıyla "şifremi unuttum", eski çalışana ipucu sorma, şirket e-postalarında "tiktok" arama, Chrome kayıtlı şifreleri, TikTok destek başvurusu. Bu Chrome'da açık olan @cihankrmz61 kullanıcının kişisel hesabıdır, şirket hesabı değildir. TikTok yorum/mesaj akışı hesaba giriş sonrası Facebook'takine benzer yürütülecek (TikTok'ta link tıklanmaz, hız sınırı var). Durum: beklemede.

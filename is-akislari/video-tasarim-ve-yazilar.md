@@ -1,6 +1,13 @@
 # İş akışı: Video tasarımları, yazı katmanları ve Facebook açıklaması
 
-Son güncelleme: 01.11.2026
+Son güncelleme: 10.11.2026
+
+## Zorunlu Premiere Pro Şablon Standartları (10.11.2026 Kullanıcı Kararı)
+- **WhatsApp Linki Yasağı (Açık Numara Zorunluluğu):** Premiere Pro'da kullanılmak üzere üretilecek tüm statik PNG, hareketli ProRes 4444 (`.mov`) / `.mp4`, bitiş kartı ve XML şablonlarında WhatsApp **kesinlikle `https://wa.me/...` linki olarak konulmaz**. İzleyicinin videoda doğrudan okuyabilmesi için WhatsApp ikonu eşliğinde **açık telefon numarası (`01066830373` — yalnızca `0373` ile biten hat)** yazılır *(LTR uyumu için `+20 106 683 0373` yerine tercihen yalın yerel format `01066830373` veya tek LTR blok kullanılır)*.
+- **Şirket Adresi Zorunluluğu:** Oluşturulacak tüm Premiere Pro bitiş/CTA ve iletişim şablonlarına **şirket fabrika adresi mutlaka eklenir:**
+  - Saf %100 Arapça grafik şablon standardı: `مصنع إيه بي أيشام — العبور – القليوبية – المنطقة الصناعية بي آند سي – قطعة 7 – بلوك 27003 – الدور الثالث` *(Latin harfsiz akış için `بي آند سي`, standart metinlerde `B&C`)*.
+- **Fiyat & Katalog Çağrısı:** Video şablonlarında *"الأسعار عبر واتساب فقط"* ("Fiyatlar sadece WhatsApp'ta") ifadesi kullanılmaz; `kartelas 1 - fiyatlı.pdf` kataloğu hem modelleri hem EGP fiyatlarını içerdiğinden *"اطلب الكتالوج والأسعار (PDF) على واتساب"* veya ücretsiz numune daveti kullanılır.
+- **Gizlilik Sınırı:** Telefon numarası ve şirket adresi yasağı yalnızca `kedihane` reposu içindir; AB Ayçam reposunda şirket numarası ve adresi yazmakta hiçbir kısıt yoktur. (`wa.me` link kuralı yalnızca tıklanabilir Facebook/Messenger yazılı mesaj ve yorumları içindir.)
 
 ## Amaç
 Premiere'de hazırlanan dikey videolara (Facebook/Reels) şeffaf PNG tasarım katmanları, zamanlı Arapça yazılar, iletişim kartı ve 4 fotoğraflı bitiş sahnesi eklemek.
@@ -31,7 +38,7 @@ Metinler: طباعة الاستراس بالمتر / على التوب كامل�
 `E:\ab ayçam\video-tasarimlari\bayrak-sablon\2160x3840` ve `1080x1920`: 01 şeffaf (koyu vinyet), 02 koyu zeminli. İki daire deliği olan üst katman: altın çerçeveli, hafif parlama; Türk bayrağı solda, Mısır sağda; ortada kırmızı elmas, altında "جودة تركية داخل مصر" ve AB AYÇAM. Bayrak görselleri altındaki kanala konur. Delik merkezleri (2160x3840): sol (570,1760), sağ (1590,1760); çap 760 px (1080x1920'de 285,880 / 795,880, çap 380). Bayrak görseli deliği tamamen kaplayacak kadar büyütülür. Betik `_kaynak\bayrak.py <ölçek>` (design4k.py'ye bağlı).
 
 ## Facebook açıklama kuralları
-Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/201066830373` linki (yazılı numara yok), adres satırı ve etiketler dahil (#طباعة_استراس #استراس #طباعة_بالمتر #هوت_فيكس #لانجيري #عبايات #فساتين_سهرة #العبور #مصر #ABAYÇAM). Metin: başlıkta "طباعة الاستراس بالمتر… على التوب كامل، مش قطع", ✔️ listesi (37 رسمة, ثبات وجودة تركية, القماش اللي تختاره, تنفيذ سريع من غير استيراد, مناسب للمصانع وورش الملابس), "الأسعار والموديلات بنشاركها على واتساب بس".
+Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/201066830373` linki (yazılı numara yok — tıklanabilir sosyal medya metni için), adres satırı ve etiketler dahil (#طباعة_استراس #استراس #طباعة_بالمتر #هوت_فيكس #لانجيري #عبايات #فساتين_سهرة #العبور #مصر #ABAYÇAM). Metin: başlıkta "طباعة الاستراس بالمتر… على التوب كامل، مش قطع", ✔️ listesi (40+ رسمة, ثبات وجودة تركية, القماش اللي تختاره, تنفيذ سريع من غير استيراد, مناسب للمصانع وورش الملابس), "اطلب كتالوج الموديلات والأسعار (PDF) عبر واتساب: https://wa.me/201066830373" *(eski "الأسعار والموديلات بنشاركها على واتساب بس" ibaresi 10.11.2026 itibarıyla kaldırılmıştır)*.
 
 ## Video 18 - reklam (19.10.2026)
 - Yöntem: `.prproj` dosyası gzip'li XML; python ile okunup sequence'teki klip adları, başlangıç/bitiş (tick/254016000000 = sn) ve in-point'ler çıkarıldı. Her klibin ortasından ffmpeg ile kare alınıp kontak sayfası yapıldı; yazılar görüntüye göre zamanlandı. Premiere projesi kullanıcıda açıkken de okunabiliyor, değiştirilmiyor.
@@ -96,3 +103,24 @@ Arapça (Mısır lehçesi), fiyat yok, WhatsApp için sadece `https://wa.me/2010
   - Hazır kurgu videosu: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video 23 - 17T kurgu.mp4` (`1080x1920`, 30 fps CFR, `62,40 sn`, `45,22 MB`).
   - Premiere Pro XML sekansı: `E:\ab ayçam\premiere pro\23 - video\video 23 - 17T kurgu\video23_premiere_sekans.xml`.
   - Facebook açıklaması ve rehber: `video23_facebook_aciklama.txt`, `OKU-BENI.md`, `_calisma\build_video23_pro.py`, `_calisma\join_pro.py`, `_calisma\mkxml23.py`.
+
+## Video 16/Lenceri - ElevenLabs Seslendirme Metinleri (08.11.2026)
+- Kaynak: `E:\ab ayçam\premiere pro\16\lenceri` içindeki 74 adet (`1792x2400`) saten, kadife, tül ve şifon strass taş baskılı model görseli.
+- Üretilen seslendirme metinleri (`promptlar\16_lenceri_video_elevenlabs_seslendirme_metinleri.md` ve `premiere pro\16\16_lenceri_elevenlabs_seslendirme_metinleri.md`):
+  - **Seçenek 1 (~35–40 sn):** Ana Tanıtım & Kapsamlı Premiere Pro kurgusu + saniye saniye görsel grup eşleştirmesi ve sesle birebir aynı (özetsiz, emojisiz) Arapça altyazı tablosu.
+  - **Seçenek 2 (~25–30 sn):** Hızlı & Vurucu Reels / TikTok / Meta reklam kancası.
+  - **Seçenek 3 (~45–50 sn):** Hikaye & Kârlılık odaklı fabrika/atölye versiyonu.
+
+## Video 16/lncr video - Google Flow 36 Görsel Video Prompt Kataloğu (08.11.2026)
+- Kaynak: `E:\ab ayçam\premiere pro\16\lncr video` içindeki 36 adet (`1a.jfif` – `44.jfif`) taş baskılı model görseli.
+- Standartlar: Kadınların hafif ve narin hareket ettiği (`subtle, delicate, graceful micro-movements`), kameranın slow hareketle 12 görselde elbiseye yaklaştığı (`Slow Push-In`), 12 görselde yatay kaydığı (`Slow Pan`) ve 12 görselde kadının etrafında döndüğü (`Slow Orbit`), kıyafet ve taş motiflerinin %100 korunduğu I2V prompt seti.
+- Kayıt: `promptlar\16_lncr_video_google_flow_promptlari.md` ve `premiere pro\16\lncr video\16_lncr_video_google_flow_promptlari.md`.
+
+## Premiere Pro Antigravity 8 — Haute Couture Lüks Taş Baskı Şablon Paketi (09.11.2026)
+- Konum: E:\\ab ayçam\\premiere pro\\şablonlar premiere\\antigravity 8\\
+- Tasarım Standartları:
+  - Sıfır Sim/Glitter: Yalnızca metraj kristal strass taş baskı, geniş en 3.20m, yıkama/dökülmeme garantisi, ücretsiz numune ve WhatsApp siparişi. *(10.11.2026 Notu: Bu ilk v1 paketindeki `11`–`13` bitiş şablonlarında `https://wa.me/201066830373` linki ve eski WhatsApp-fiyat ibaresi yer almıştır; 10.11.2026 kuralıyla yeni üretilecek/revize edilecek tüm Premiere Pro şablonlarında link yerine açık numara `01066830373` + şirket adresi ve PDF katalog çağrısı zorunludur.)*
+  - Minimalist & Alandan Tasarruf Eden Mimari: Kumaşı ve kadrajı daraltmayan yüzen cam kapsüller (%85+ açık alan, Y: 220-350 üst rozet, Y: 1420-1620 lower-third).
+  - Çift Format: 15 adet 1080x1920 saydam PNG + 5 adet 10-bit saydam Apple ProRes 4444 (.mov) ve (.mp4) hareketli grafik animasyonu.
+  - Premiere Pro XML: 05_premiere_xml\\antigravity8_master_sekans_1080x1920.xml doğrudan içe aktarılabilir.
+  - Görsel Katalog & Rehber: KATALOG_MASTER_TUM_SABLONLAR.jpg ve OKU_BENI_KULLANIM_REHBERI.md.

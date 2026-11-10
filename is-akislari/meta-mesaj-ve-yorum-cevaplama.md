@@ -1,6 +1,6 @@
 # İş akışı: Meta Business Suite mesaj ve yorum cevaplama
 
-Son güncelleme: 13.10.2026
+Son güncelleme: 10.11.2026
 
 ## Amaç
 Facebook sayfası "AB İstanbul dijital & Taş baskı" için Messenger mesajlarını ve gönderi yorumlarını takip etmek, müşterilere Arapça (Mısır lehçesi) cevap yazmak ve WhatsApp'a yönlendirmek.
@@ -14,7 +14,7 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
    - Messenger: `.../latest/inbox/messenger?asset_id=...`
    - Facebook yorumları: `.../latest/inbox/facebook?asset_id=...`; bir gönderi için `&selected_item_id=<gönderi id>&thread_type=FB_PAGE_POST`
    - Sayfa yüklenirken boş görünebilir, 5-8 sn bekle.
-2. Okunmamış sayıları ve "Okunmamış" filtresini kullan. Listeyi aşağı kaydırıp daha eski konuşmaları yükle. Son mesajın "Sen:" ile başlaması bizim cevap verdiğimiz anlamına gelir; müşterinin yazdığı son mesajlar cevap bekleyenlerdir.
+2. Okunmamış sayıları ve "Okunmamış" filtresini kullan. Listeyi aşağı kaydırıp daha eski konuşmaları yükle. Son mesajın "Sen:" ile başlaması genellikle bizim cevap verdiğimiz anlamına gelir; **ancak `"Sen: Merhaba ..."` veya `"Sen: أهلاً بيك في AB إسطنبول"` önizlemesi Meta'nın otomatik karşılama mesajıdır (insan yanıtı değildir) — müşteri sorusu arkasında kalmış olabileceği için cevapsız aday olarak mutlaka açılıp doğrulanmalıdır.** Müşterinin yazdığı son mesajlar cevap bekleyenlerdir.
 3. Yorumlarda her gönderiyi aç; altında "1 yanıtı gör" yazan yorumların cevabı var mı genişleterek doğrula (tıklama yeri yorum altındaki bu yazı). Sayfa adı üzerine gelince açılan profil kartını X ile kapat.
 4. **Listeyi 5 Sütunlu Türkçe Tablo Olarak Çıkar (İki Aşamalı Onay & Gerçek Zamanlı İsim Hitabı):**
    - Kullanıcı sormasa dahi veya gelen yorum/mesajlar incelendiğinde her zaman şu 5 sütunlu tam tablo formatında sunulur:
@@ -37,31 +37,38 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
 
 ## Kurallar
 - Cevaplar Arapça (Mısır lehçesi), kişinin adıyla hitap (Arapça yazan için Arapça isim, Latin yazanın adı olduğu gibi).
-- WhatsApp'a yönlendirirken **sadece `https://wa.me/201066830373` linki**. Telefon numarası yazı olarak yazılmaz (Arapça metinde sıra ters görünür).
-- **Fiyat ve model çeşitliliği sadece WhatsApp'tan verilir.** Cevapta açıkça söylenir. İnsanlar Messenger'dan cevap aldıktan sonra da fiyat/model sorduğu için bu vurgu eklendi.
+- WhatsApp'a yönlendirirken Messenger/Facebook metinlerinde **sadece `https://wa.me/201066830373` linki** kullanılır (Arapça metinde sıra ters görünmesini önlemek ve tek tıkla açılması için). *(Not: Şirket numarası ve adresi yazma yasağı yalnızca `kedihane` reposu içindir; AB Ayçam reposunda ve Premiere Pro video şablonlarında `01066830373` ve fabrika adresi açıkça yazılır.)*
+- **Açık Adres (sorulursa paylaşılabilir):** `العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`
+- **Messenger'da fiyat ve modeller ekteki fiyatlı katalog PDF'inde (`kartelas 1 - fiyatlı.pdf`) paylaşılır (10.11.2026 güncellemesi):** Messenger yanıtlarında *"fiyat sadece WhatsApp'ta verilir"* ibaresi kullanılmaz; fiyat ve modellerin PDF'te olduğu belirtilir, detay ve sipariş için WhatsApp'a (`https://wa.me/201066830373`) yönlendirilir. (Yorumlarda dosya eklenemediği için yorum yanıtları WhatsApp'a yönlendirilmeye devam edilir.)
 - Yorumda otomatik özel mesaj numarayı zaten gönderiyorsa ayrıca cevap yazma.
 - Spam ve ilgisiz reklamlar atlanır.
 - Reklam seti ve otomasyon değişiklikleri sadece onayla.
 - Şifre/doğrulama kodu girilmez.
 
 ## Cevap şablonları ({ISIM} yerine kişinin adı)
-**Fiyat sorusu:**
-أهلاً {ISIM} 👋 سعر المتر بيختلف حسب الرسمة والقماش. للسعر والتفاصيل كلمنا على واتساب: https://wa.me/201066830373
+**Facebook Gönderi Yorumu — Fiyat sorusu (Yorumlara PDF eklenemediği için):**
+أهلاً {ISIM} 👋 سعر المتر بيختلف حسب الرسمة ونوع القماش. ابعتلنا رسالة على الصفحة أو كلمنا على واتساب عشان نبعتلك ملف الموديلات والأسعار (PDF) فوراً: https://wa.me/201066830373
 
-**Şekiller/modeller sorusu:**
-أهلاً {ISIM} 👋 عندنا أكتر من 37 رسمة مختلفة للطباعة. لمشاهدة الأشكال المتاحة وإرسال قماشك كلمنا على واتساب: https://wa.me/201066830373
+**Facebook Gönderi Yorumu — Şekiller/modeller sorusu (Yorumlara PDF eklenemediği için):**
+أهلاً {ISIM} 👋 عندنا أكتر من 39 رسمة وموديل للطباعة بالمتر. ابعتلنا رسالة على الصفحة أو كلمنا على واتساب عشان نبعتلك ملف الموديلات والأسعار (PDF) فوراً: https://wa.me/201066830373
 
-**Fiyat ve model yalnızca WhatsApp'ta (tekrar soranlara; güncel kural):**
-أهلاً {ISIM} 👋 الأسعار والموديلات بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373
+**Messenger Ücretsiz Numune Şartları Sorusu (`kartelas 1 - fiyatlı.pdf` Ekli):**
+أهلاً بحضرتك يا {ISIM} 👋 مفيش أي شروط خالص! حضرتك تشرفنا في مصنعنا بمدينة العبور بقماشك ونعمل لحضرتك عينة مجانية وتشوف جودة الطباعة بنفسك. وكل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد على حضرتك فوراً: https://wa.me/201066830373
+
+**Messenger Fabrika Dışından Kumaş Kabulü (`kartelas 1 - fiyatlı.pdf` Ekli):**
+أهلاً {ISIM} 👋 أيوة طبعاً بنستلم القماش من عند حضرتك وبنطبعه بأعلى جودة تركي فصوص واستراس 💎 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373
+
+**Standart Messenger Yanıtı (Modeller ve Fiyatlar PDF'te — 10.11.2026):**
+أهلاً {ISIM} 👋 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373
 
 **Sipariş isteği:**
-أهلاً {ISIM} 👋 الأسعار والموديلات بنشاركها على واتساب بس، وتقدر تطلب طباعة على قماشك من هناك. كلمنا وهنرد عليك فوراً: https://wa.me/201066830373
+أهلاً {ISIM} 👋 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار الموديل اللي يعجبك، وتقدر تطلب طباعة على قماشك وتتابع التفاصيل على واتساب وهنرد عليك فوراً: https://wa.me/201066830373
 
-**Kargo / teslimat sorusu (13.10.2026'da kullanıldı; gerçek politika kayıtta yok, kullanıcı teyit edince güncellenecek):**
-أهلاً {ISIM} 👋 تفاصيل الشحن والتوصيل بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373
+**Kargo / teslimat sorusu (Messenger'da PDF ekiyle; gerçek kargo politikası kullanıcı teyidinde güncellenecek):**
+أهلاً {ISIM} 👋 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 وبالنسبة لتفاصيل الشحن والتوصيل كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373
 
 **Teşekkür (olumlu yorum):**
-شكراً لذوقك! للتفاصيل والسعر كلمنا على واتساب: https://wa.me/201066830373
+شكراً لذوقك! لطلب كتالوج الموديلات والأسعار (PDF) أو أي تفاصيل كلمنا على واتساب: https://wa.me/201066830373
 
 ## Denenen ve olmayanlar
 - Cevaba telefon numarasını yazı olarak koymak: kullanıcının ekranında numara sırası ters göründü. Sadece link bırakıldı. Eski cevaplarda yazılı numaralar vardı; yorumlarda Düzenle ile düzeltildi, Messenger mesajları düzenlenemediği için bekliyor.

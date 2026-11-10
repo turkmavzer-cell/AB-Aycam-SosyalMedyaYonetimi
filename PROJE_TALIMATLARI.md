@@ -21,6 +21,7 @@ Mesaj **"ekip:"** ile başlarsa veya iş birden çok uzmanlık gerektiriyorsa `t
 - Alt ajanlar bu talimatı görmez. Tekir, her görev tanımına o işle ilgili proje kurallarını (WhatsApp linki, PDF yolu ve kuralı, hitap metni, Mısır lehçesi, kumaş rengi kuralı, onaylı promptlar) açıkça yazar.
 - Ajanlar öğrendiklerini kendi hafızalarına değil, `github-guncelleme\ogrenilenler.md`'ye yazdırır; Tekir bunları toplar.
 - Kayıt klasörü kuralı ve "her işin sonunda" kuralı ekip için de geçerlidir. Ekip commit ve push yapmaz.
+- **Telefon Numarası ve Şirket Adresi Kuralı (`Kedihane` ≠ `AB Ayçam`):** Telefon numarası (`01066830373` / `+20 106 683 0373`) ve fabrika adresi yazma yasağı **yalnızca `kedihane` reposu içindir.** AB Ayçam reposunda şirket telefon numarası ve adresinin yazılmasında **hiçbir kısıtlama yoktur** (yalnızca bireysel müşteri adları ve mesaj içerikleri `.gitignore` altındaki `yerel-kayitlar/` klasöründe tutulur).
 
 ---
 
@@ -59,17 +60,18 @@ Yaptığın **HER** iş, güncelleme, yeni prompt, liste, rapor veya not — ba�
 
 - **İletişim:** Kullanıcıyla Türkçe konuş, müşteri cevapları ve içerik Arapça (Mısır lehçesi). Kısa ve net yaz.
 - **İş Yönetimi:** Önce soruya cevap ver; istenmeyen işe başlama, büyük işte önce plan sun ve onay al.
-- **WhatsApp Yönlendirmesi:** Müşteriye WhatsApp'a yönlendirirken sadece `https://wa.me/201066830373` linki kullanılır; numara kesinlikle metin olarak yazılmaz. Fiyat sadece WhatsApp'tan verilir.
+- **WhatsApp Yönlendirmesi:** Müşteriye WhatsApp'a yönlendirirken sadece `https://wa.me/201066830373` linki kullanılır; numara kesinlikle metin olarak yazılmaz. Messenger yanıtlarında fiyat ve modeller `kartelas 1 - fiyatlı.pdf` ile paylaşılır; detay, sipariş ve özel sorular için WhatsApp'a yönlendirilir.
 - **Adres:** Adres sorulursa herkese açık adres yazılabilir:  
   `العبور – القليوبية – المنطقة الصناعية B&C – قطعة 7 – بلوك 27003 – الدور الثالث`
-- **Mesajlarda Kişiye Özel Hitap:** Fiyat, model/şekil veya kumaşa baskı soran herkese Messenger'da kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir ve *"tüm modellerimiz PDF'te mevcuttur"* denir.  
+- **Mesajlarda Kişiye Özel Hitap:** Fiyat, model/şekil, numune veya kumaşa baskı soran herkese Messenger'da kişinin adıyla hitap eden kısa metin + `E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf` dosyası ek olarak gönderilir ve *"tüm modellerimiz ve fiyatları PDF'te mevcuttur"* denir (*"fiyat sadece WhatsApp'ta verilir"* ibaresi kullanılmaz).  
   **Standart Metin:**  
-  `أهلاً {isim} 👋 كل موديلاتنا موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك. الأسعار بنشاركها على واتساب بس. كلمنا هناك وهنرد عليك فوراً: https://wa.me/201066830373`
+  `أهلاً {isim} 👋 كل موديلاتنا وأسعارها موجودة في الملف المرفق (PDF) 📎 اختار اللي يعجبك، وللتفاصيل أو الحجز كلمنا على واتساب وهنرد عليك فوراً: https://wa.me/201066830373`
 - **PDF Kontrolü:** Her gönderimden önce PDF yolunu kontrol et (`E:\ab ayçam\kartela görüntüsü\kartelas 1 - fiyatlı.pdf`). Klasör yolu veya dosya adı değişmişse/bulunamıyorsa göndermeyi durdur ve kullanıcıya MUTLAKA bildir; başka PDF gönderme.
 - **Gönderim Doğrulaması:** Her mesajda gönderilen `wa.me` linkinin eksiksiz olduğunu kontrol et; başarıyı sohbet listesinde *"Bir dosya eki gönderdin"* önizlemesiyle doğrula. "Önerilen yanıt" çubuğunu kullanma (yazılı numara içeriyor).
 - **Raporlama:** Toplu cevap turlarında sonunda kullanıcıya liste ver: kime cevap verildi, ne sormuş, ne yazıldı.
 - **Güvenlik & Onay:** Şifre, doğrulama kodu girme. Mesaj gönderme, silme, reklam seti/otomasyon değişikliği ve ödemede önce onay al (kullanıcı toplu cevap turunu açıkça onayladıysa o tur kapsamında gönderilebilir).
 - **Ev Tekstili:** Ev tekstili görsellerinde kumaş rengi değişmez, onaylı sahne düzeni ve ölçüler repodaki `promptlar/` klasöründedir.
+- **Premiere Pro & Video Şablonları (Zorunlu Numara & Adres Kuralı):** Premiere Pro için oluşturulacak tüm şablonlarda (statik PNG, hareketli ProRes 4444 MOV/MP4, bitiş/CTA kartları ve XML sekansları) WhatsApp **kesinlikle `wa.me` linki olarak konulmaz**; yerine WhatsApp ikonuyla **doğrudan okunabilir telefon numarası (`01066830373`)** yazılır ve **şirket adresi mutlaka eklenir** (`مصنع إيه بي أيشام — العبور – القليوبية – المنطقة الصناعية بي آند سي – قطعة 7 – بلوك 27003 – الدور الثالث` veya `B&C`). *(Not: `https://wa.me/201066830373` linki yalnızca tıklanabilir Facebook/Messenger yazılı mesaj ve yorumları içindir.)*
 
 ---
 
