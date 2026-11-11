@@ -1,6 +1,6 @@
 # İş akışı: Meta Business Suite mesaj ve yorum cevaplama
 
-Son güncelleme: 10.11.2026
+Son güncelleme: 11.11.2026
 
 ## Amaç
 Facebook sayfası "AB İstanbul dijital & Taş baskı" için Messenger mesajlarını ve gönderi yorumlarını takip etmek, müşterilere Arapça (Mısır lehçesi) cevap yazmak ve WhatsApp'a yönlendirmek.
@@ -75,5 +75,6 @@ Kullanıcı "yeni mesaj ve yorumları kontrol et" dediğinde.
 - Meta'nın otomatik karşılama mesajı sadece "nasıl yardım edebiliriz" der; fiyat/link içermez, bu yüzden ayrıca cevap gerekir.
 
 ## Mevcut durum
+11 Kasım: Son 36 saatlik turda 7 Messenger mesajı (`kartelas 1 - fiyatlı.pdf` ekli) ve 2 Facebook gönderi yorumu (`reel/1792770955308605`) tek sekmede sıralı gönderilip DOM üzerinden 9/9 doğrulandı.
 13 Ekim: 7 yeni Messenger mesajı cevaplandı (sadece ismini yazıp beğeni atan bir kişi atlandı). Yorumlarda Meta otomatik yanıtı çalışıyor. Messenger'da yanıt kutusu konumu pencere boyutuna göre değişir (y≈677 veya 722); yazmadan önce ekran görüntüsüyle kutuyu doğrula. Gönderilen konuşma listenin en üstüne çıkar, alttakiler kaymaz.
 12 Ekim: bekleyen tüm Messenger mesajları cevaplandı; tekrar soran yoktu. Eski mesajlar ve bazı yorumlar için `bekleyen-isler.md` dosyasına bak.
